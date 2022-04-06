@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  App.xaml.cpp
+  MainPage.xaml.cpp
+  UnityGenerated.cpp
+  XamlTypeInfo.Impl.g.cpp
+C:\Git\C4OS_Unity\C4OS\BuildXAML\C4OS\App.xaml.cpp(95,1): warning C4973: 'Windows::UI::ViewManagement::IApplicationView2::SuppressSystemOverlays::set': marked as deprecated
+C:\Git\C4OS_Unity\C4OS\BuildXAML\C4OS\App.xaml.cpp(95,1): message : Message: 'Use the TryEnterFullScreen method and IsFullScreenMode property instead of SuppressSystemOverlays. For more info, see MSDN.'
+  XamlTypeInfo.g.cpp
+  C4OS.vcxproj -> C:\Git\C4OS_Unity\C4OS\BuildXAML\build\bin\ARM\Debug\C4OS.exe

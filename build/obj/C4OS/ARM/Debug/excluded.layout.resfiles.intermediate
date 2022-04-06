@@ -1,0 +1,18 @@
+Data\boot.config
+Data\globalgamemanagers
+Data\globalgamemanagers.assets
+Data\il2cpp_data\Metadata\global-metadata.dat
+Data\il2cpp_data\Resources\I18N.CJK.dll-resources.dat
+Data\il2cpp_data\Resources\mscorlib.dll-resources.dat
+Data\level0
+Data\level1
+Data\resources.assets
+Data\resources.assets.resS
+Data\Resources\unity default resources
+Data\Resources\unity_builtin_extra
+Data\RuntimeInitializeOnLoads.json
+Data\ScriptingAssemblies.json
+Data\sharedassets0.assets
+Data\sharedassets1.assets
+Data\sharedassets1.assets.resS
+StoreManifest.xml

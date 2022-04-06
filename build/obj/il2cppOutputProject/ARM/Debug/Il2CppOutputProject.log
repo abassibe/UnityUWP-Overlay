@@ -1,0 +1,974 @@
+﻿  Building GameAssembly.dll with MsvcWinRtToolChain
+  	Msvc Install Version: 16.0
+  	Msvc Install SDK Directory: C:\Program Files (x86)\Windows Kits\10
+  	Msvc Linker Path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX64\ARM\link.exe
+  	Msvc Compiler Path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX64\ARM\cl.exe
+  
+  	Output directory: C:\Git\C4OS_Unity\C4OS\BuildXAML\build\bin\ARM\Debug
+  	Cache directory: C:\Git\C4OS_Unity\C4OS\BuildXAML\build\obj\il2cppOutputProject\ARM\Debug
+  pch-c.c
+  pch-cpp.cpp
+  mscorlib_Debugger.c
+  mscorlib_CodeGen.c
+  Il2CppMetadataUsage.c
+  Il2CppTypeDefinitions.c
+  Il2CppCCalculateFieldValues.cpp
+  Generics3.cpp
+  Generics2.cpp
+  mscorlib13.cpp
+  mscorlib7.cpp
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4305: 'return': truncation from '__int64' to 'T'
+          with
+          [
+              T=int32_t
+          ]
+  C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\Source\il2cppOutput\mscorlib7.cpp(13206): note: see reference to function template instantiation 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)' being compiled
+          with
+          [
+              T=int32_t
+          ]
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4309: 'return': truncation of constant value
+  UnityEngine.CoreModule.cpp
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4305: 'return': truncation from '__int64' to 'T'
+          with
+          [
+              T=int32_t
+          ]
+  C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.CoreModule.cpp(15983): note: see reference to function template instantiation 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)' being compiled
+          with
+          [
+              T=int32_t
+          ]
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4309: 'return': truncation of constant value
+  Il2CppCCalculateTypeValues.cpp
+  Generics.cpp
+  mscorlib14.cpp
+  Il2CppInvokerTable.cpp
+  mscorlib2.cpp
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4305: 'return': truncation from '__int64' to 'T'
+          with
+          [
+              T=int32_t
+          ]
+  C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\Source\il2cppOutput\mscorlib2.cpp(13797): note: see reference to function template instantiation 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)' being compiled
+          with
+          [
+              T=int32_t
+          ]
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4309: 'return': truncation of constant value
+  mscorlib10.cpp
+  mscorlib11.cpp
+  Generics5.cpp
+  Generics6.cpp
+  mscorlib4.cpp
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4305: 'return': truncation from '__int64' to 'T'
+          with
+          [
+              T=int32_t
+          ]
+  C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\Source\il2cppOutput\mscorlib4.cpp(8954): note: see reference to function template instantiation 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)' being compiled
+          with
+          [
+              T=int32_t
+          ]
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4309: 'return': truncation of constant value
+  Generics4.cpp
+  mscorlib6.cpp
+  GenericMethods1.cpp
+  mscorlib8.cpp
+  mscorlib5.cpp
+  mscorlib1.cpp
+  UnityEngine.CoreModule1.cpp
+  mscorlib12.cpp
+  Il2CppGenericMethodPointerTable.c
+  mscorlib17.cpp
+  mscorlib3.cpp
+  System1.cpp
+  GenericMethods.cpp
+  mscorlib.cpp
+  Generics7.cpp
+  mscorlib16.cpp
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4305: 'return': truncation from '__int64' to 'T'
+          with
+          [
+              T=int32_t
+          ]
+  C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\Source\il2cppOutput\mscorlib16.cpp(19102): note: see reference to function template instantiation 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)' being compiled
+          with
+          [
+              T=int32_t
+          ]
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4309: 'return': truncation of constant value
+  mscorlib9.cpp
+  GenericMethods2.cpp
+  Generics1.cpp
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4305: 'return': truncation from '__int64' to 'T'
+          with
+          [
+              T=int32_t
+          ]
+  C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\Source\il2cppOutput\Generics1.cpp(7704): note: see reference to function template instantiation 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)' being compiled
+          with
+          [
+              T=int32_t
+          ]
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4309: 'return': truncation of constant value
+  UnityEngine.IMGUIModule.cpp
+  UnityEngine.CoreModule_Debugger.c
+  Assembly-CSharp.cpp
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\Source\il2cppOutput\Assembly-CSharp.cpp(14792): warning C4717: 'Location_op_Inequality_m41C74CC075E7AB594F31B4A1B05C2EDC37941809': recursive on all control paths, function will cause runtime stack overflow
+  System.cpp
+  I18N.CJK.cpp
+  System2.cpp
+  mscorlib15.cpp
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4305: 'return': truncation from '__int64' to 'T'
+          with
+          [
+              T=int32_t
+          ]
+  C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\Source\il2cppOutput\mscorlib15.cpp(17428): note: see reference to function template instantiation 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)' being compiled
+          with
+          [
+              T=int32_t
+          ]
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4309: 'return': truncation of constant value
+  UnityEngine.AndroidJNIModule.cpp
+  I18N.cpp
+  Generics8.cpp
+  Il2CppGenericInstDefinitions.c
+  UnityEngine.CoreModule_CodeGen.c
+  dictionary.c
+  char-conversions.cpp
+  I18N.Rare2.cpp
+  I18N.Rare.cpp
+  I18N.Rare1.cpp
+  I18N.West.cpp
+  UnityEngine.XRModule.cpp
+  I18N.Rare4.cpp
+  I18N.Other.cpp
+  UnityEngine.IMGUIModule_Debugger.c
+  I18N.Rare3.cpp
+  UnityEngine.AndroidJNIModule_Debugger.c
+  UnityEngine.TerrainModule.cpp
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4305: 'return': truncation from '__int64' to 'T'
+          with
+          [
+              T=int32_t
+          ]
+  C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.TerrainModule.cpp(4631): note: see reference to function template instantiation 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)' being compiled
+          with
+          [
+              T=int32_t
+          ]
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4309: 'return': truncation of constant value
+  Assembly-CSharp_Debugger.c
+  Il2CppGenericAdjustorThunkTable.c
+  UnityEngine.AnimationModule.cpp
+  Il2CppCCTypeValuesTable.cpp
+  I18N.West1.cpp
+  UnityEngine.PhysicsModule.cpp
+  I18N.MidEast.cpp
+  UnityEngine.TilemapModule.cpp
+  debugger-agent.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\il2cpp-mono-api-functions.h(19): warning C4028: formal parameter 4 different from declaration
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\il2cpp-mono-api-functions.h(20): warning C4028: formal parameter 4 different from declaration
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(655): warning C4005: 'DEBUG': macro redefinition
+  C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c: note: see previous definition of 'DEBUG'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(906): warning C4133: '=': incompatible types - from 'MonoInternalThread *' to 'Il2CppInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(1099): warning C4028: formal parameter 2 different from declaration
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(1103): warning C4028: formal parameter 2 different from declaration
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(1104): warning C4028: formal parameter 2 different from declaration
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(1481): warning C4133: 'function': incompatible types - from 'int *' to 'const char *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2198): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2203): warning C4133: '==': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2212): warning C4133: '==': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2220): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2282): warning C4133: '=': incompatible types - from 'MonoObject *' to 'Il2CppObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2415): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2426): warning C4133: 'function': incompatible types - from 'MonoDomain *' to 'MonoAppDomain *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2441): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2461): warning C4133: 'function': incompatible types - from 'MonoDomain *' to 'MonoAppDomain *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2467): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2488): warning C4133: 'function': incompatible types - from 'MonoDomain *' to 'MonoAppDomain *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2491): warning C4133: 'function': incompatible types - from 'MonoDomain *' to 'MonoAppDomain *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2555): warning C4018: '<=': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2620): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(2668): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3001): warning C4133: 'function': incompatible types - from 'Il2CppInternalThread *' to 'MonoInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3286): warning C4133: 'function': incompatible types - from 'Il2CppInternalThread *' to 'MonoInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3351): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3378): warning C4133: '=': incompatible types - from 'MonoMethod *' to 'MethodInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3380): warning C4133: '=': incompatible types - from 'MonoMethod *' to 'MethodInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3381): warning C4133: '=': incompatible types - from 'MonoMethod *' to 'MethodInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3393): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3397): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3400): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3406): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3406): warning C4133: '=': incompatible types - from 'MonoMethod *' to 'MethodInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3500): warning C4477: 'fprintf' : format string '%lx' requires an argument of type 'unsigned long', but variadic argument 2 has type 'uint64_t'
+  C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3500): note: consider using '%llx' in the format string
+  C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3500): note: consider using '%I64x' in the format string
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3549): warning C4090: '=': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3565): warning C4133: '=': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3566): warning C4090: '=': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3547): warning C4090: 'initializing': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3774): warning C4090: 'function': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3823): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3842): warning C4133: '!=': incompatible types - from 'MonoInternalThread *' to 'Il2CppInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3845): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3847): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3862): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3862): warning C4133: '==': incompatible types - from 'MonoAssembly *' to 'Il2CppAssembly *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3890): warning C4090: 'function': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3812): warning C4090: 'initializing': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3881): warning C4101: 'source_file_list': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3878): warning C4101: 's': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3880): warning C4101: 'i': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(3874): warning C4101: 'method': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4076): warning C4133: '=': incompatible types - from 'MonoThread *' to 'Il2CppThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4309): warning C4133: 'function': incompatible types - from 'Il2CppInternalThread *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4257): warning C4133: 'initializing': incompatible types - from 'MonoInternalThread *' to 'Il2CppInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4356): warning C4133: 'function': incompatible types - from 'Il2CppInternalThread *' to 'MonoInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4517): warning C4133: 'function': incompatible types - from 'MonoDomain *' to 'MonoAppDomain *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4517): warning C4133: '=': incompatible types - from 'MonoAssembly *' to 'Il2CppAssembly *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4504): warning C4101: 'tmp': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4570): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4763): warning C4101: 'i': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4930): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4908): warning C4101: 'm': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4909): warning C4101: 'seq_points': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4906): warning C4101: 'iter': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4913): warning C4101: 'i': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4907): warning C4101: 'domain': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(4906): warning C4101: 'iter2': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5029): warning C4090: '=': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5034): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5012): warning C4101: 'm': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5013): warning C4101: 'seq_points': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5010): warning C4101: 'iter': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5017): warning C4101: 'i': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5011): warning C4101: 'domain': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5010): warning C4101: 'iter2': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5077): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5104): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5118): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5149): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5153): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5190): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5192): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5197): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5221): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5318): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5329): warning C4018: '>': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5314): warning C4090: 'initializing': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5370): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5370): warning C4133: '==': incompatible types - from 'Il2CppAssembly *' to 'MonoAssembly *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5426): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5433): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5466): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5476): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5476): warning C4133: 'function': incompatible types - from 'Il2CppObject **' to 'MonoObject **'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5476): warning C4133: '=': incompatible types - from 'MonoObject *' to 'Il2CppObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5488): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5497): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5512): warning C4133: 'function': incompatible types - from 'Il2CppImage *' to 'MonoImage *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5867): warning C4133: '!=': incompatible types - from 'Il2CppInternalThread *' to 'MonoInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5876): warning C4133: 'function': incompatible types - from 'Il2CppSequencePoint *' to 'MonoJitInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5894): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5894): warning C4133: '==': incompatible types - from 'MonoAssembly *' to 'Il2CppAssembly *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(5883): warning C4090: 'initializing': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(6026): warning C4113: 'void (__cdecl *)(DebuggerTlsData *,gboolean,Il2CppSequencePoint *)' differs in parameter lists from 'void (__cdecl *)(DebuggerTlsData *,gboolean)'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(6065): warning C4101: 'orig_restore_state': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(6283): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(6311): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(6298): warning C4090: 'initializing': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(6366): warning C4090: 'initializing': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(6709): warning C4090: 'initializing': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(6659): warning C4101: 'found_sp': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(6658): warning C4101: 'local_sp': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(6922): warning C4090: 'function': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(6926): warning C4090: 'initializing': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7019): warning C4090: '=': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7022): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7041): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7041): warning C4133: '==': incompatible types - from 'MonoAssembly *' to 'Il2CppAssembly *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(6989): warning C4133: 'initializing': incompatible types - from 'MonoInternalThread *' to 'Il2CppInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7155): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7170): warning C4133: '==': incompatible types - from 'MonoAssembly *' to 'Il2CppAssembly *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7086): warning C4133: 'initializing': incompatible types - from 'MonoInternalThread *' to 'Il2CppInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7343): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7361): warning C4133: 'function': incompatible types - from 'MonoClass *' to 'const Il2CppClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7363): warning C4090: '=': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7364): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7368): warning C4133: 'function': incompatible types - from 'MonoClass *' to 'const Il2CppClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7370): warning C4133: 'function': incompatible types - from 'MonoClass *' to 'Il2CppClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7372): warning C4133: 'function': incompatible types - from 'MonoClass *' to 'Il2CppClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7378): warning C4133: 'function': incompatible types - from 'MonoClass *' to 'Il2CppClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7389): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7443): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7458): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7360): warning C4133: 'initializing': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7665): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7666): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7669): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7700): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7701): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7715): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7732): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7738): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7784): warning C4244: '=': conversion from 'gint64' to 'gssize', possible loss of data
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7787): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7812): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7812): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7813): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7813): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7816): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7816): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7825): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7837): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7837): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7844): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7884): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7890): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7913): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7914): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7928): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7934): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7939): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7939): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7944): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(7934): warning C4133: 'initializing': incompatible types - from 'MonoObject *' to 'Il2CppObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8170): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8173): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8184): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8209): warning C4133: '==': incompatible types - from 'Il2CppAssembly *' to 'MonoAssembly *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8263): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8289): warning C4133: 'function': incompatible types - from 'Il2CppAssembly *' to 'MonoAssembly *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8351): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8351): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8353): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8353): warning C4133: 'function': incompatible types - from 'Il2CppObject **' to 'MonoObject **'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8362): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8364): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8365): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8370): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8372): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8379): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8380): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8386): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8389): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8389): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8395): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8395): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8401): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8406): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8411): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8411): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8411): warning C4133: '=': incompatible types - from 'MonoMethod *' to 'MethodInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8413): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8414): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8415): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8415): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8417): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8422): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8422): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8422): warning C4133: '=': incompatible types - from 'MonoMethod *' to 'MethodInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8423): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8424): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8425): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8425): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8429): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8429): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8434): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8436): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8440): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8440): warning C4133: '=': incompatible types - from 'MonoObject *' to 'Il2CppObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8449): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8449): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8461): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8475): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8516): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8516): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8516): warning C4133: 'function': incompatible types - from 'Il2CppObject **' to 'MonoObject **'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8516): warning C4133: '=': incompatible types - from 'MonoObject *' to 'Il2CppObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8527): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8530): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8541): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8544): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8545): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8547): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8547): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8549): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8556): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8564): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8565): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8571): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8573): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8573): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8581): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8581): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8586): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8589): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8591): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8553): warning C4133: 'initializing': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8570): warning C4133: 'initializing': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8686): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8719): warning C4133: 'function': incompatible types - from 'Il2CppInternalThread *' to 'MonoInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8752): warning C4101: 'method': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(8894): warning C4133: '=': incompatible types - from 'MonoMethod *' to 'MethodInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9049): warning C4133: 'function': incompatible types - from 'Il2CppInternalThread *' to 'MonoInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9087): warning C4133: 'function': incompatible types - from 'MonoDomain *' to 'MonoAppDomain *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9096): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9150): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9192): warning C4133: 'function': incompatible types - from 'MonoDomain *' to 'MonoAppDomain *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9192): warning C4133: '=': incompatible types - from 'MonoAssembly *' to 'Il2CppAssembly *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9198): warning C4133: 'function': incompatible types - from 'Il2CppImage *' to 'MonoImage *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9198): warning C4133: 'function': incompatible types - from 'Il2CppImage *' to 'MonoImage *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9198): warning C4133: '=': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9201): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9216): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9186): warning C4101: 'tmp': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9275): warning C4244: '=': conversion from 'gint64' to 'long', possible loss of data
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9483): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9540): warning C4133: 'function': incompatible types - from 'MonoDomain *' to 'MonoAppDomain *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9548): warning C4133: 'function': incompatible types - from 'MonoDomain *' to 'MonoAppDomain *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9548): warning C4133: '=': incompatible types - from 'MonoAssembly *' to 'Il2CppAssembly *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9574): warning C4090: 'function': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9612): warning C4133: '=': incompatible types - from 'MonoObject *' to 'Il2CppObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9615): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9615): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9530): warning C4101: 'tmp': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9668): warning C4133: 'function': incompatible types - from 'Il2CppImage *' to 'MonoImage *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9675): warning C4133: 'function': incompatible types - from 'Il2CppImage *' to 'MonoImage *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9681): warning C4090: '=': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9702): warning C4133: 'function': incompatible types - from 'Il2CppImage *' to 'MonoImage *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9743): warning C4133: 'function': incompatible types - from 'Il2CppImage *' to 'MonoImage *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9743): warning C4133: 'function': incompatible types - from 'Il2CppImage *' to 'MonoImage *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9743): warning C4133: '=': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9756): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9672): warning C4101: 'token': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9803): warning C4133: 'function': incompatible types - from 'MonoImage *' to 'const Il2CppImage *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9806): warning C4133: 'function': incompatible types - from 'MonoAssembly *' to 'Il2CppAssembly *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9843): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9843): warning C4133: '==': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9848): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9851): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9937): warning C4101: 'i': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9972): warning C4133: '=': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9973): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9976): warning C4133: 'function': incompatible types - from 'MonoAssembly *' to 'Il2CppAssembly *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9980): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(9994): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10030): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10064): warning C4133: '=': incompatible types - from 'MonoMethod *' to 'MethodInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10104): warning C4133: 'function': incompatible types - from 'MonoMethod *' to 'MethodInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10105): warning C4133: 'function': incompatible types - from 'MonoMethod *' to 'MethodInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10106): warning C4133: 'function': incompatible types - from 'MonoClass *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10248): warning C4133: ':': incompatible types - from 'MonoInternalThread *' to 'Il2CppInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10248): warning C4133: 'function': incompatible types - from 'Il2CppInternalThread *' to 'MonoInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10251): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10290): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10321): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10359): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10417): warning C4133: '=': incompatible types - from 'MonoMethod *' to 'MethodInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10446): warning C4133: '=': incompatible types - from 'MonoObject *' to 'Il2CppObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10032): warning C4133: 'initializing': incompatible types - from 'MonoGenericContainer *' to 'Il2CppGenericContainer *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10203): warning C4101: 'special_static_type': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10395): warning C4101: 'variance_used': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10394): warning C4101: 'ioffset': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10525): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10530): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10554): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10558): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10573): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10575): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10584): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10593): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10602): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10603): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10610): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10698): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10716): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10729): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10736): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10804): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10806): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10815): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10832): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10832): warning C4133: '=': incompatible types - from 'MonoMethod *' to 'MethodInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10843): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10847): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10853): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10858): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10860): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10933): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10950): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10951): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10959): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10964): warning C4133: '==': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10969): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10970): warning C4133: '==': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10973): warning C4133: '==': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10976): warning C4133: '==': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11040): warning C4133: '=': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11042): warning C4133: 'function': incompatible types - from 'Il2CppType **' to 'MonoType **'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11044): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11044): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11047): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11047): warning C4133: '=': incompatible types - from 'MonoMethod *' to 'MethodInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11049): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10828): warning C4133: 'initializing': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10858): warning C4133: 'initializing': incompatible types - from 'MonoGenericContainer *' to 'Il2CppGenericContainer *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10562): warning C4101: 'error': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(10563): warning C4101: 'j': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11101): warning C4133: 'function': incompatible types - from 'Il2CppInternalThread *' to 'MonoInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11241): warning C4090: '=': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11253): warning C4090: 'function': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11253): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11253): warning C4090: '=': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11245): warning C4101: 'i': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11331): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11345): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11361): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11363): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11365): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11370): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11384): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11386): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11388): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11398): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11401): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11416): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11416): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11439): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11448): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11450): warning C4133: '=': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11456): warning C4133: 'function': incompatible types - from 'MethodInfo *' to 'MonoMethod *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11462): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11464): warning C4133: '=': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11468): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11471): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11505): warning C4133: 'function': incompatible types - from 'Il2CppClass *' to 'MonoClass *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11505): warning C4133: '=': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11507): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11509): warning C4133: 'function': incompatible types - from 'Il2CppType *' to 'MonoType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11549): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11554): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11566): warning C4018: '>': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11568): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11571): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11571): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11580): warning C4018: '>': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11582): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11585): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11585): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11641): warning C4244: '=': conversion from 'gint64' to 'int', possible loss of data
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11642): warning C4244: '=': conversion from 'gint64' to 'int', possible loss of data
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11686): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11716): warning C4133: '=': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11762): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11773): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11813): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11832): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11866): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11874): warning C4133: 'function': incompatible types - from 'MonoType *' to 'Il2CppType *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(11887): warning C4133: 'function': incompatible types - from 'Il2CppObject *' to 'MonoObject *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12194): warning C4133: 'function': incompatible types - from 'Il2CppInternalThread *' to 'MonoInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12212): warning C4133: 'function': incompatible types - from 'MonoDomain *' to 'MonoAppDomain *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12374): warning C4133: 'function': incompatible types - from 'Il2CppThread *' to 'MonoThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12185): warning C4133: 'initializing': incompatible types - from 'MonoThread *' to 'Il2CppThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12188): warning C4133: 'initializing': incompatible types - from 'MonoInternalThread *' to 'Il2CppInternalThread *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12415): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12426): warning C4018: '<=': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12427): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12432): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12436): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12455): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12494): warning C4133: 'function': incompatible types - from 'Il2CppSequencePoint *' to 'MonoJitInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12496): warning C4133: 'function': incompatible types - from 'Il2CppSequencePoint *' to 'MonoJitInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12498): warning C4133: 'function': incompatible types - from 'Il2CppSequencePoint *' to 'MonoJitInfo *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12395): warning C4090: 'initializing': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12394): warning C4101: 'found_sp': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12384): warning C4101: 'ip': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12393): warning C4101: 'sp': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12521): warning C4101: 'orig_restore_state': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12522): warning C4101: 'orig_ip': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12552): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12570): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12595): warning C4047: 'function': 'Il2CppThreadUnwindState *' differs in levels of indirection from 'Il2CppThreadUnwindState **'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12595): warning C4024: 'callbacks': different types for formal and actual parameter 1
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\mini\debugger-agent.c(12589): warning C4133: 'initializing': incompatible types - from 'MonoInternalThread *' to 'Il2CppInternalThread *'
+  Il2CppInteropDataTable.cpp
+  UnityEngine.SharedInternalsModule.cpp
+  UnityEngine.Physics2DModule.cpp
+  Il2CppGenericClassTable.c
+  System_CodeGen.c
+  UnresolvedVirtualCallStubs.cpp
+  dlmalloc.c
+  System_Debugger.c
+  UnityEngine.InputLegacyModule.cpp
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4305: 'return': truncation from '__int64' to 'T'
+          with
+          [
+              T=int32_t
+          ]
+  C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\Source\il2cppOutput\UnityEngine.InputLegacyModule.cpp(1201): note: see reference to function template instantiation 'T il2cpp_codegen_cast_double_to_int<int32_t>(double)' being compiled
+          with
+          [
+              T=int32_t
+          ]
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\libil2cpp\codegen\il2cpp-codegen-common-small.h(38): warning C4309: 'return': truncation of constant value
+  Il2CppGenericMethodTable.c
+  Il2CppGenericMethodDefinitions.c
+  Il2CppCCFieldValuesTable.cpp
+  mscorlib18.cpp
+  UnityEngine.SubsystemsModule.cpp
+  System.Xml.cpp
+  Mono.Security.cpp
+  Il2CppRgctxTable.c
+  UnityEngine.VFXModule.cpp
+  UnityEngine.UIElementsNativeModule.cpp
+  dictionary_hash.c
+  decode.c
+  UnityEngine.AudioModule.cpp
+  deflate.c
+  I18N.Rare5.cpp
+  UnityEngine.ParticleSystemModule.cpp
+  UnityEngine.TerrainModule_Debugger.c
+  UnityEngine.VideoModule.cpp
+  I18N.Rare_CodeGen.c
+  UnityEngine.UnityAnalyticsModule.cpp
+  UnityEngine.XRModule_Debugger.c
+  encode.c
+  UnityEngine.AndroidJNIModule_CodeGen.c
+  UnityEngine.PhysicsModule_Debugger.c
+  UnityEngine.AnimationModule_Debugger.c
+  UnityEngine.IMGUIModule_CodeGen.c
+  UnityEngine.SharedInternalsModule_Debugger.c
+  inflate.c
+  Assembly-CSharp_CodeGen.c
+  I18N.CJK_CodeGen.c
+  I18N.Rare_Debugger.c
+  UnityEngine.TilemapModule_Debugger.c
+  brotli_bit_stream.c
+  I18N.CJK_Debugger.c
+  UnityEngine.InputModule.cpp
+  trees.c
+  UnityEngine.UnityWebRequestModule.cpp
+  UnityEngine.Physics2DModule_Debugger.c
+  UnityEngine.UIModule.cpp
+  UnityEngine.InputLegacyModule_Debugger.c
+  System.Configuration.cpp
+  mono-threads.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-threads.c(209): warning C4013: '_write' undefined; assuming extern returning int
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-threads.c(243): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-threads.c(1277): warning C4244: 'function': conversion from 'gint64' to 'guint32', possible loss of data
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-threads.c(1322): warning C4101: 'ret': unreferenced local variable
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-threads.c(1365): warning C4244: 'function': conversion from 'guint64' to 'gulong', possible loss of data
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-threads.c(1661): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-threads.c(1668): warning C4018: '<=': signed/unsigned mismatch
+  compress_fragment.c
+  backward_references_hq.c
+  xamarin_getifaddrs.c
+  I18N_CodeGen.c
+  profiler.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\profiler.c(1146): warning C4244: 'function': conversion from 'uint64_t' to 'int', possible loss of data
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\profiler.c(1146): warning C4244: 'function': conversion from 'uint64_t' to 'int', possible loss of data
+  UnityEngine.XRModule_CodeGen.c
+  UnityEngine.VFXModule_Debugger.c
+  I18N_Debugger.c
+  giconv.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\giconv.c(549): warning C4018: '>': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\giconv.c(598): warning C4018: '<': signed/unsigned mismatch
+  UnityEngine.SubsystemsModule_Debugger.c
+  mono-error.c
+  System.Core_CodeGen.c
+  il2cpp-mono-api.cpp
+  UnityEngine.AssetBundleModule.cpp
+  mono-proclib.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-proclib.c(239): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-proclib.c(240): warning C4018: '<': signed/unsigned mismatch
+  I18N.West_CodeGen.c
+  UnityEngine.AnimationModule_CodeGen.c
+  compress_fragment_two_pass.c
+  infback.c
+  I18N.West_Debugger.c
+  mono-threads-state-machine.c
+  I18N.Other_CodeGen.c
+  metablock.c
+  gstr.c
+  UnityEngine.TextRenderingModule.cpp
+  gzread.c
+  gzwrite.c
+  UnityEngine.PhysicsModule_CodeGen.c
+  UnityEngine.SharedInternalsModule_CodeGen.c
+  il2cpp-api.cpp
+  I18N.Other_Debugger.c
+  UnityEngine.UIElementsNativeModule_Debugger.c
+  mono-counters.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-counters.c(484): warning C4018: '<': signed/unsigned mismatch
+  UnityEngine.DirectorModule.cpp
+  static_dict.c
+  monobitset.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\monobitset.c(179): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\monobitset.c(390): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\monobitset.c(416): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\monobitset.c(425): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\monobitset.c(449): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\monobitset.c(482): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\monobitset.c(491): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\monobitset.c(620): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\monobitset.c(638): warning C4018: '<': signed/unsigned mismatch
+  mono-context.c
+  UnityEngine.ParticleSystemModule_Debugger.c
+  gzlib.c
+  UnityEngine.Physics2DModule_CodeGen.c
+  UnityEngine.AIModule.cpp
+  lock-free-alloc.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-alloc.c(576): warning C4018: '<': signed/unsigned mismatch
+  UnityEngine.VideoModule_Debugger.c
+  UnityEngine.AudioModule_Debugger.c
+  entropy_encode.c
+  crc32.c
+  ghashtable.c
+  mono-logger.c
+  mono-mmap.c
+  UnityEngine.TilemapModule_CodeGen.c
+  mono-codeman.c
+  inftrees.c
+  inffast.c
+  UnityEngine.TerrainModule_CodeGen.c
+  System.Core_Debugger.c
+  UnityEngine.UnityAnalyticsModule_Debugger.c
+  mono-hash.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\mono-hash.c(134): warning C4018: '>': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\mono-hash.c(136): warning C4018: '>': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\mono-hash.c(223): warning C4244: 'function': conversion from 'float' to 'guint', possible loss of data
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\mono-hash.c(366): warning C4018: '>': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\mono-hash.c(366): warning C4018: '<=': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\mono-hash.c(367): warning C4018: '>': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\mono-hash.c(367): warning C4018: '<=': signed/unsigned mismatch
+  I18N.MidEast_CodeGen.c
+  gspawn.c
+  I18N.MidEast_Debugger.c
+  mono-threads-coop.c
+  huffman.c
+  gmarkup.c
+  UnityEngine.VRModule.cpp
+  System.Core.cpp
+  mono-dl.c
+  mono-tls.c
+  w32file-unity.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\w32file-unity.c(124): warning C4244: 'initializing': conversion from 'int64_t' to 'int32_t', possible loss of data
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\w32file-unity.c(151): warning C4047: 'function': 'int64_t' differs in levels of indirection from 'const FILETIME *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\w32file-unity.c(151): warning C4024: 'UnityPalSetFileTime': different types for formal and actual parameter 2
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\w32file-unity.c(151): warning C4047: 'function': 'int64_t' differs in levels of indirection from 'const FILETIME *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\w32file-unity.c(151): warning C4024: 'UnityPalSetFileTime': different types for formal and actual parameter 3
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\w32file-unity.c(151): warning C4047: 'function': 'int64_t' differs in levels of indirection from 'const FILETIME *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\w32file-unity.c(151): warning C4024: 'UnityPalSetFileTime': different types for formal and actual parameter 4
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\w32file-unity.c(167): warning C4090: 'function': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\w32file-unity.c(192): warning C4090: 'function': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\w32file-unity.c(212): warning C4090: 'function': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\w32file-unity.c(223): warning C4090: 'function': different 'const' qualifiers
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\w32file-unity.c(512): warning C4018: '<=': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\w32file-unity.c(519): warning C4090: 'function': different 'const' qualifiers
+  UnityEngine.SubsystemsModule_CodeGen.c
+  strenc.c
+  mono-md5.c
+  UnityEngine.InputModule_Debugger.c
+  atomic.c
+  mono-sha1.c
+  UnityEngine.UnityWebRequestModule_Debugger.c
+  hazard-pointer.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\hazard-pointer.c(99): warning C4018: '>=': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\hazard-pointer.c(115): warning C4197: 'MonoThreadHazardPointers *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\hazard-pointer.c(148): warning C4018: '<': signed/unsigned mismatch
+  UnityEngine.UIModule_Debugger.c
+  UnityEngine.VFXModule_CodeGen.c
+  mono-conc-hashtable.c
+  mono-value-hash.c
+  gpath.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\gpath.c(256): warning C4013: '_access' undefined; assuming extern returning int
+  System.Xml_Debugger.c
+  System.Xml_CodeGen.c
+  mono-io-portability.c
+  lock-free-queue.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(73): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(73): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(97): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(97): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(109): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(113): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(132): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(133): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(148): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(151): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(159): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(159): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(255): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(260): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(280): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\lock-free-queue.c(304): warning C4197: 'MonoLockFreeQueueNode *volatile ': top-level volatile in cast is ignored
+  UnityEngine.ParticleSystemModule_CodeGen.c
+  UnityEngine.AudioModule_CodeGen.c
+  zutil.c
+  gutf8.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\gutf8.c(153): warning C4018: '<': signed/unsigned mismatch
+  goutput.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\goutput.c(40): warning C4028: formal parameter 1 different from declaration
+  System.Configuration_Debugger.c
+  UnityEngine.VideoModule_CodeGen.c
+  Il2CppCodeRegistration.cpp
+  gshell.c
+  gslist.c
+  mono-hwcap-arm.c
+  Mono.Security_Debugger.c
+  mono-os-wait-win32.c
+  UnityEngine.InputLegacyModule_CodeGen.c
+  UnityEngine.UIElementsNativeModule_CodeGen.c
+  memfuncs.c
+  block_splitter.c
+  UnityEngine.DirectorModule_Debugger.c
+  glist.c
+  System.Configuration_CodeGen.c
+  gstring.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\gstring.c(173): warning C4018: '<=': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\gstring.c(264): warning C4018: '>=': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\gstring.c(267): warning C4018: '>=': signed/unsigned mismatch
+  gunicode.c
+  literal_cost.c
+  garray.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\garray.c(232): warning C4018: '>': signed/unsigned mismatch
+  Lump_libil2cpp_icalls.cpp
+  adler32.c
+  mono-linked-list-set.c
+  w32process-unity.c
+  memory.c
+  w32socket-unity.c
+  state.c
+  gptrarray.c
+  Mono.Security_CodeGen.c
+  gpattern.c
+  gqsort.c
+  UnityEngine.GridModule.cpp
+  UnityEngine.TextRenderingModule_Debugger.c
+  UnityEngine.UnityAnalyticsModule_CodeGen.c
+  UnityEngine.AIModule_Debugger.c
+  lock-free-array-queue.c
+  UnityEngine.VRModule_Debugger.c
+  mono-mmap-windows.c
+  mono-path.c
+  UnityEngine.GridModule_Debugger.c
+  gfile.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\gfile.c(136): warning C4018: '<': signed/unsigned mismatch
+  backward_references.c
+  mono-filemap.c
+  UnityEngine.UIModule_CodeGen.c
+  __Generated_Debugger.c
+  mono-threads-unity.c
+  UnityEngine.InputModule_CodeGen.c
+  gdir-unity.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\gdir-unity.c(130): warning C4090: 'function': different 'const' qualifiers
+  gmem.c
+  __Generated.cpp
+  histogram.c
+  UnityEngine.AssetBundleModule_Debugger.c
+  uncompr.c
+  mono-log-common.c
+  mono-networkinterfaces.c
+  UnityEngine_Debugger.c
+  mono-internal-hash.c
+  json.c
+  compress.c
+  networking-unity.c
+  unity-rand.c
+  gerror.c
+  mono-os-mutex.c
+  UnityEngine.UnityWebRequestModule_CodeGen.c
+  gqueue.c
+  bsearch.c
+  utf8_util.c
+  gfile-unity.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\gfile-unity.c(34): warning C4244: 'function': conversion from 'int64_t' to 'gsize', possible loss of data
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\gfile-unity.c(38): warning C4244: 'function': conversion from 'int64_t' to 'int', possible loss of data
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\gfile-unity.c(50): warning C4244: '=': conversion from 'int64_t' to 'gsize', possible loss of data
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\eglib\gfile-unity.c(60): warning C4090: 'return': different 'const' qualifiers
+  mono-poll.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-poll.c(55): warning C4018: '<': signed/unsigned mismatch
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-poll.c(109): warning C4018: '<': signed/unsigned mismatch
+  Il2CppReversePInvokeWrapperTable.cpp
+  mono-property-hash.c
+  file-mmap-unity.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\file-mmap-unity.c(78): warning C4244: '=': conversion from 'gint64' to 'size_t', possible loss of data
+  w32event-unity.c
+  mono-proclib-windows.c
+  gbytearray.c
+  UnityEngine.DirectorModule_CodeGen.c
+  UnityAdsStubs.cpp
+  gc.c
+  networking.c
+  UnityEngine.TextRenderingModule_CodeGen.c
+  mono-dl-unity.c
+  mono-uri.c
+  Lump_libil2cpp_metadata.cpp
+  UnityEngine.AIModule_CodeGen.c
+  cluster.c
+  mono-hwcap.c
+  parse.c
+  Lump_libil2cpp_os.cpp
+  krait_signal_handler.c
+  bit_reader.c
+  Lump_libil2cpp_utils.cpp
+  gmisc-unity.c
+  __Generated_CodeGen.c
+  networking-missing.c
+  w32semaphore-unity.c
+  mono-stdlib.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-stdlib.c(39): warning C4013: '_mktemp' undefined; assuming extern returning int
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-stdlib.c(39): warning C4047: '=': 'char *' differs in levels of indirection from 'int'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\utils\mono-stdlib.c(54): warning C4013: '_open' undefined; assuming extern returning int
+  os-event-unity.c
+  Il2CppMetadataRegistration.c
+  UnityEngine.VRModule_CodeGen.c
+  UnityEngine.GridModule_CodeGen.c
+  w32mutex-unity.c
+  console-unity.c
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\console-unity.c(44): warning C4133: 'function': incompatible types - from 'MonoString *' to 'const char *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\console-unity.c(44): warning C4133: 'function': incompatible types - from 'MonoString *' to 'const char *'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\console-unity.c(44): warning C4047: 'function': 'uint8_t *' differs in levels of indirection from 'MonoArray **'
+C:\Git\C4OS_Unity\C4OS\BuildXAML\Il2CppOutputProject\IL2CPP\external\mono\mono\metadata\console-unity.c(44): warning C4024: 'UnityPalConsoleTtySetup': different types for formal and actual parameter 3
+  bit_cost.c
+  gunicode-win32-uwp.c
+  unity-time.c
+  UnityEngine.cpp
+  il2cpp-benchmark-support.cpp
+  mono-publib.c
+  gzclose.c
+  UnityEngine.AssetBundleModule_CodeGen.c
+  Lump_libil2cpp_vm.cpp
+  UnityEngine_CodeGen.c
+  mono-log-unity.c
+  w32error-unity.c
+  mono-math.c
+  gdate-unity.c
+  il2cpp-runtime-stats.cpp
+  Lump_libil2cpp_vm-utils.cpp
+  Lump_libil2cpp_debugger.cpp
+  Lump_libil2cpp_codegen.cpp
+  Lump_libil2cpp_gc.cpp
+  Lump_libil2cpp_mono.cpp
+  ObjectFiles: 335 of which compiled: 335
+  	Time Compile: 8217 milliseconds Lump_libil2cpp_os.cpp
+  	Time Compile: 5576 milliseconds Lump_libil2cpp_vm.cpp
+  	Time Compile: 3204 milliseconds Lump_libil2cpp_icalls.cpp
+  	Time Compile: 2564 milliseconds mscorlib15.cpp
+  	Time Compile: 2404 milliseconds gc.c
+  	Time Compile: 2258 milliseconds UnityEngine.CoreModule.cpp
+  	Time Compile: 1996 milliseconds mscorlib7.cpp
+  	Time Compile: 1945 milliseconds mscorlib2.cpp
+  	Time Compile: 1903 milliseconds Generics.cpp
+  	Time Compile: 1886 milliseconds Lump_libil2cpp_vm-utils.cpp
+  Total compilation time: 24442 milliseconds.
+  Creating library C:\Git\C4OS_Unity\C4OS\BuildXAML\build\obj\il2cppOutputProject\ARM\Debug\linkresult_B63D029A74129CCDBC291236B44D0F98\GameAssembly.lib and object C:\Git\C4OS_Unity\C4OS\BuildXAML\build\obj\il2cppOutputProject\ARM\Debug\linkresult_B63D029A74129CCDBC291236B44D0F98\GameAssembly.exp
+  Total link time: 3368 milliseconds.
+  Cleaned up 2 object files.

@@ -1,0 +1,1 @@
+C:\Git\C4OS_Unity\C4OS\BuildXAML\C4OS\C4OS.vcxproj;arm

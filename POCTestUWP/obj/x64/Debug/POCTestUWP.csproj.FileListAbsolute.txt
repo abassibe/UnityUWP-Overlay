@@ -1,0 +1,159 @@
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\bin\x64\Debug\App.xbf
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\bin\x64\Debug\MainPage.xbf
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\bin\x64\Debug\POCTestUWP.xr.xml
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\bin\x64\Debug\POCTestUWP.exe
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\bin\x64\Debug\POCTestUWP.pdb
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\bin\x64\Debug\resources.pri
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\bin\x64\Debug\AppxManifest.xml
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\bin\x64\Debug\Core\POCTestUWP.exe
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\bin\x64\Debug\POCTestUWP.build.appxrecipe
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\bin\x64\Debug\System.Runtime.dll
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\POCTestUWP.csproj.AssemblyReference.cache
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\App.g.i.cs
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\App.g.cs
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\MainPage.g.cs
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\App.xaml
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\MainPage.xaml
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\App.xbf
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\MainPage.xbf
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\POCTestUWP.csproj.CoreCompileInputs.cache
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\POCTestUWP.csproj.CopyComplete
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\POCTestUWP.exe
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\POCTestUWP.pdb
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\priconfig.xml
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\resources.resfiles
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\pri.resfiles
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\qualifiers.txt
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\obj\x64\Debug\.winmd_cache\$UnityPlayer.winmd_637728062420000000.json
+C:\Git\C4OS_Unity\C4OS\BuildXAML\build\bin\x64\Debug\App.xbf
+C:\Git\C4OS_Unity\C4OS\BuildXAML\build\bin\x64\Debug\MainPage.xbf
+C:\Git\C4OS_Unity\C4OS\BuildXAML\build\bin\x64\Debug\POCTestUWP.xr.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML\build\bin\x64\Debug\POCTestUWP.exe
+C:\Git\C4OS_Unity\C4OS\BuildXAML\build\bin\x64\Debug\POCTestUWP.pdb
+C:\Git\C4OS_Unity\C4OS\BuildXAML\build\bin\x64\Debug\resources.pri
+C:\Git\C4OS_Unity\C4OS\BuildXAML\build\bin\x64\Debug\AppxManifest.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML\build\bin\x64\Debug\Core\AppxManifest.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML\build\bin\x64\Debug\Core\POCTestUWP.exe
+C:\Git\C4OS_Unity\C4OS\BuildXAML\build\bin\x64\Debug\POCTestUWP.build.appxrecipe
+C:\Users\FT30353\Desktop\Nouveau dossier (2)\POCTestUWP\POCTestUWP\bin\x64\Debug\UnityPlayer.dll
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\App.xbf
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\MainPage.xbf
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\POCTestUWP.xr.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\POCTestUWP.exe
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\POCTestUWP.pdb
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\resources.pri
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\AppxManifest.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\Core\AppxManifest.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\Core\POCTestUWP.exe
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\POCTestUWP.build.appxrecipe
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\System.Runtime.dll
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\UnityPlayer.winmd
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\bin\x64\Debug\UnityPlayer.dll
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\POCTestUWP.csproj.AssemblyReference.cache
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\App.g.i.cs
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\App.g.cs
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\MainPage.g.i.cs
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\MainPage.g.cs
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\App.xaml
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\MainPage.xaml
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\App.xbf
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\MainPage.xbf
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\POCTestUWP.csproj.CoreCompileInputs.cache
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\POCTestUWP.csproj.CopyComplete
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\POCTestUWP.exe
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\POCTestUWP.pdb
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\ResourceHandlingTask.state
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\priconfig.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\priconfig.xml.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\filtered.layout.resfiles
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\excluded.layout.resfiles
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\resources.resfiles
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\resources.resfiles.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\pri.resfiles
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\pri.resfiles.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\qualifiers.txt
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\ProjectArchitectures.txt
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\POCTestUWP\obj\x64\Debug\.winmd_cache\$UnityPlayer.winmd_637728062420000000.json
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\build\bin\x64\Debug\App.xbf
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\build\bin\x64\Debug\MainPage.xbf
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\build\bin\x64\Debug\POCTestUWP.xr.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\build\bin\x64\Debug\POCTestUWP.exe
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\build\bin\x64\Debug\POCTestUWP.pdb
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\build\bin\x64\Debug\resources.pri
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\build\bin\x64\Debug\AppxManifest.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\build\bin\x64\Debug\Core\AppxManifest.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\build\bin\x64\Debug\Core\POCTestUWP.exe
+C:\Git\C4OS_Unity\C4OS\BuildXAML - Copie\build\bin\x64\Debug\POCTestUWP.build.appxrecipe
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\build\bin\x64\Debug\App.xbf
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\build\bin\x64\Debug\MainPage.xbf
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\build\bin\x64\Debug\POCTestUWP.xr.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\build\bin\x64\Debug\POCTestUWP.exe
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\build\bin\x64\Debug\POCTestUWP.pdb
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\build\bin\x64\Debug\resources.pri
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\build\bin\x64\Debug\AppxManifest.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\build\bin\x64\Debug\Core\AppxManifest.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\build\bin\x64\Debug\Core\POCTestUWP.exe
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\build\bin\x64\Debug\POCTestUWP.build.appxrecipe
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\POCTestUWP.csproj.AssemblyReference.cache
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\App.g.i.cs
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\App.g.cs
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\MainPage.g.i.cs
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\MainPage.g.cs
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\App.xaml
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\MainPage.xaml
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\App.xbf
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\MainPage.xbf
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\POCTestUWP.csproj.CoreCompileInputs.cache
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\POCTestUWP.csproj.CopyComplete
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\POCTestUWP.exe
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\POCTestUWP.pdb
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\ResourceHandlingTask.state
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\priconfig.xml
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\priconfig.xml.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\filtered.layout.resfiles
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\excluded.layout.resfiles
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\resources.resfiles
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\resources.resfiles.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\pri.resfiles
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\pri.resfiles.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\qualifiers.txt
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\ProjectArchitectures.txt
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424743200000000.json
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\obj\x64\Debug\.winmd_cache\$UnityPlayer.winmd_637728062420000000.json

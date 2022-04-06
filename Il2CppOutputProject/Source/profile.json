@@ -1,0 +1,1540 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "il2cpp_outer", "ph":"M", "name": "process_name", "args": {"name": "il2cpp_outer"} },
+{ "pid": "il2cpp_outer", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -1} },
+{ "pid": "il2cpp_outer", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": "Main thread"} },
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 414264284973.8,"dur": 1364798, "ph":"X", "name": "il2cpp.exe"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 414264407433.1,"dur": 1230672.7, "ph":"X", "name": "Build"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 414264407906.8,"dur": 148997.2, "ph":"X", "name": "FindFilesToCompile"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 414264557031.5,"dur": 443988.5, "ph":"X", "name": "Calculate header hashes"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 414265001020.5,"dur": 24749.5, "ph":"X", "name": "Calculate lumped hashes"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 414265025770.6,"dur": 33364, "ph":"X", "name": "ToolChain OnBeforeCompile Build"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 414265059135.2,"dur": 308348.4, "ph":"X", "name": "Compile All Files"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 414265367999.5,"dur": 1169, "ph":"X", "name": "OnBeforeLink Build"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 414265369169.1,"dur": 105998.3, "ph":"X", "name": "Link", "args": { "detail": "GameAssembly.dll"}
+},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 414265403221.6,"dur": 3843, "ph":"X", "name": "hash linker invocation"},
+{ "pid": "il2cpp_outer", "tid": 1,"ts": 414265475964.5,"dur": 162140.1, "ph":"X", "name": "Clean IL2CPP Cache"},
+{ "pid": "il2cpp_outer", "tid": 6, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 6,"ts": 414264714214.7,"dur": 22530.5, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include"}
+},
+{ "pid": "il2cpp_outer", "tid": 6,"ts": 414264715278,"dur": 19945.4, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include"}
+},
+{ "pid": "il2cpp_outer", "tid": 6,"ts": 414264735229,"dur": 1502.5, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include"}
+},
+{ "pid": "il2cpp_outer", "tid": 6,"ts": 414264736747.8,"dur": 7862.3, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\private"}
+},
+{ "pid": "il2cpp_outer", "tid": 6,"ts": 414264736756.3,"dur": 3795.7, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\private"}
+},
+{ "pid": "il2cpp_outer", "tid": 6,"ts": 414264740556.5,"dur": 4052.6, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\private"}
+},
+{ "pid": "il2cpp_outer", "tid": 6,"ts": 414264744612,"dur": 13833.1, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\c-api"}
+},
+{ "pid": "il2cpp_outer", "tid": 6,"ts": 414264744625.6,"dur": 6205.8, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\c-api"}
+},
+{ "pid": "il2cpp_outer", "tid": 6,"ts": 414264750836.1,"dur": 7602.6, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\c-api"}
+},
+{ "pid": "il2cpp_outer", "tid": 10, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 10,"ts": 414264714220.9,"dur": 23361.3, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Platforms\\UniversalWindows\\Include"}
+},
+{ "pid": "il2cpp_outer", "tid": 10,"ts": 414264715278,"dur": 11307.8, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Platforms\\UniversalWindows\\Include"}
+},
+{ "pid": "il2cpp_outer", "tid": 10,"ts": 414264726601,"dur": 10979.7, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Platforms\\UniversalWindows\\Include"}
+},
+{ "pid": "il2cpp_outer", "tid": 10,"ts": 414264737584.9,"dur": 13216.3, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils"}
+},
+{ "pid": "il2cpp_outer", "tid": 10,"ts": 414264737592.8,"dur": 10794.5, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils"}
+},
+{ "pid": "il2cpp_outer", "tid": 10,"ts": 414264748394.2,"dur": 2389.8, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils"}
+},
+{ "pid": "il2cpp_outer", "tid": 10,"ts": 414264750802.9,"dur": 27679.2, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt"}
+},
+{ "pid": "il2cpp_outer", "tid": 10,"ts": 414264750818.2,"dur": 7825.5, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt"}
+},
+{ "pid": "il2cpp_outer", "tid": 10,"ts": 414264758649.2,"dur": 19827.3, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt"}
+},
+{ "pid": "il2cpp_outer", "tid": 7, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 7,"ts": 414264714221.8,"dur": 23554.3, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\include"}
+},
+{ "pid": "il2cpp_outer", "tid": 7,"ts": 414264715278,"dur": 15436.4, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\include"}
+},
+{ "pid": "il2cpp_outer", "tid": 7,"ts": 414264730720.4,"dur": 7052.5, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\include"}
+},
+{ "pid": "il2cpp_outer", "tid": 7,"ts": 414264737777.8,"dur": 6955.7, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\xxHash"}
+},
+{ "pid": "il2cpp_outer", "tid": 7,"ts": 414264737795.6,"dur": 4295.2, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\xxHash"}
+},
+{ "pid": "il2cpp_outer", "tid": 7,"ts": 414264742095.9,"dur": 2636, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\xxHash"}
+},
+{ "pid": "il2cpp_outer", "tid": 7,"ts": 414264744735.8,"dur": 7779.3, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libmono\\config"}
+},
+{ "pid": "il2cpp_outer", "tid": 7,"ts": 414264744740.1,"dur": 4426.2, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libmono\\config"}
+},
+{ "pid": "il2cpp_outer", "tid": 7,"ts": 414264749171.1,"dur": 3339.3, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libmono\\config"}
+},
+{ "pid": "il2cpp_outer", "tid": 7,"ts": 414264752518.2,"dur": 215808.8, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt"}
+},
+{ "pid": "il2cpp_outer", "tid": 7,"ts": 414264752523.3,"dur": 214351.2, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt"}
+},
+{ "pid": "il2cpp_outer", "tid": 7,"ts": 414264966884.7,"dur": 1434.4, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt"}
+},
+{ "pid": "il2cpp_outer", "tid": 8, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 8,"ts": 414264714235.6,"dur": 25533.2, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\libatomic_ops\\src"}
+},
+{ "pid": "il2cpp_outer", "tid": 8,"ts": 414264715278.1,"dur": 20648.9, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\libatomic_ops\\src"}
+},
+{ "pid": "il2cpp_outer", "tid": 8,"ts": 414264735946,"dur": 3818.5, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\libatomic_ops\\src"}
+},
+{ "pid": "il2cpp_outer", "tid": 8,"ts": 414264739770.6,"dur": 61961.4, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 8,"ts": 414264739777.2,"dur": 57080.9, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 8,"ts": 414264796866.7,"dur": 4855.1, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 9, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 9,"ts": 414264714238.2,"dur": 35571.2, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono"}
+},
+{ "pid": "il2cpp_outer", "tid": 9,"ts": 414264715278,"dur": 28357.5, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono"}
+},
+{ "pid": "il2cpp_outer", "tid": 9,"ts": 414264743639.9,"dur": 6163, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono"}
+},
+{ "pid": "il2cpp_outer", "tid": 9,"ts": 414264749812.2,"dur": 49853.6, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include"}
+},
+{ "pid": "il2cpp_outer", "tid": 9,"ts": 414264749905.5,"dur": 29413.5, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include"}
+},
+{ "pid": "il2cpp_outer", "tid": 9,"ts": 414264779326.1,"dur": 20333.7, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include"}
+},
+{ "pid": "il2cpp_outer", "tid": 11, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 11,"ts": 414264714241.5,"dur": 35121.4, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono"}
+},
+{ "pid": "il2cpp_outer", "tid": 11,"ts": 414264715282.7,"dur": 28129.2, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono"}
+},
+{ "pid": "il2cpp_outer", "tid": 11,"ts": 414264743416.7,"dur": 5938.4, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono"}
+},
+{ "pid": "il2cpp_outer", "tid": 11,"ts": 414264749364.8,"dur": 29874.7, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\Source"}
+},
+{ "pid": "il2cpp_outer", "tid": 11,"ts": 414264749369.8,"dur": 6875.3, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\Source"}
+},
+{ "pid": "il2cpp_outer", "tid": 11,"ts": 414264756251.8,"dur": 22978.8, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\Source"}
+},
+{ "pid": "il2cpp_outer", "tid": 12, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 12,"ts": 414264714255.9,"dur": 23319.3, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\eglib"}
+},
+{ "pid": "il2cpp_outer", "tid": 12,"ts": 414264715286.7,"dur": 11326.6, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\eglib"}
+},
+{ "pid": "il2cpp_outer", "tid": 12,"ts": 414264726751.2,"dur": 10822.2, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\eglib"}
+},
+{ "pid": "il2cpp_outer", "tid": 12,"ts": 414264737577,"dur": 7145.9, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\sgen"}
+},
+{ "pid": "il2cpp_outer", "tid": 12,"ts": 414264737581.5,"dur": 4288, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\sgen"}
+},
+{ "pid": "il2cpp_outer", "tid": 12,"ts": 414264741873.8,"dur": 2846.8, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\sgen"}
+},
+{ "pid": "il2cpp_outer", "tid": 12,"ts": 414264744724.9,"dur": 6093.1, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\pch"}
+},
+{ "pid": "il2cpp_outer", "tid": 12,"ts": 414264744730.1,"dur": 4705.8, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\pch"}
+},
+{ "pid": "il2cpp_outer", "tid": 12,"ts": 414264749440.7,"dur": 1375.8, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\pch"}
+},
+{ "pid": "il2cpp_outer", "tid": 12,"ts": 414264750820.1,"dur": 250136.6, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um"}
+},
+{ "pid": "il2cpp_outer", "tid": 12,"ts": 414264750823.8,"dur": 248574, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um"}
+},
+{ "pid": "il2cpp_outer", "tid": 12,"ts": 414264999405.9,"dur": 1501.8, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um"}
+},
+{ "pid": "il2cpp_outer", "tid": 13, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 13,"ts": 414264714344.3,"dur": 25534.1, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata"}
+},
+{ "pid": "il2cpp_outer", "tid": 13,"ts": 414264715291,"dur": 21607.1, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata"}
+},
+{ "pid": "il2cpp_outer", "tid": 13,"ts": 414264736903.4,"dur": 2970.1, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata"}
+},
+{ "pid": "il2cpp_outer", "tid": 13,"ts": 414264739881.1,"dur": 10582, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\debugger"}
+},
+{ "pid": "il2cpp_outer", "tid": 13,"ts": 414264739885.1,"dur": 4604.3, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\debugger"}
+},
+{ "pid": "il2cpp_outer", "tid": 13,"ts": 414264744495.4,"dur": 5966.4, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\debugger"}
+},
+{ "pid": "il2cpp_outer", "tid": 13,"ts": 414264750464.8,"dur": 50264.5, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared"}
+},
+{ "pid": "il2cpp_outer", "tid": 13,"ts": 414264750468.6,"dur": 48183.3, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".h C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared"}
+},
+{ "pid": "il2cpp_outer", "tid": 13,"ts": 414264798657.4,"dur": 2066.7, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".inc C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared"}
+},
+{ "pid": "il2cpp_outer", "tid": 20, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 20,"ts": 414264718573.6,"dur": 6237.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\include\\cord.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 17, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 17,"ts": 414264718551.7,"dur": 6259.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Platforms\\UniversalWindows\\Include\\C\\Baselib_DynamicLibrary.inl.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 15, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 15,"ts": 414264718554.1,"dur": 6639.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Platforms\\UniversalWindows\\Include\\BaselibPlatformSpecificEnvironment.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 18, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 18,"ts": 414264718554.2,"dur": 6256.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\libatomic_ops\\src\\atomic_ops\\ao_version.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 18,"ts": 414264729969.5,"dur": 3123.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\libatomic_ops\\src\\atomic_ops\\sysdeps\\loadstore\\char_atomic_store.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 16, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 16,"ts": 414264718560.4,"dur": 6251.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\abi-details.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 16,"ts": 414264726199.7,"dur": 1459.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\class-internals.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 16,"ts": 414264729009.2,"dur": 3464, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\exception.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 23, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 23,"ts": 414264718562.5,"dur": 6249, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\eglib\\glib.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 24, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 24,"ts": 414264718567.1,"dur": 6548.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\Baselib.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 22, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 22,"ts": 414264718580.1,"dur": 6230.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\eglib\\eglib-remap.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 25, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 25,"ts": 414264718580.8,"dur": 6326.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include\\C\\Baselib_Alignment.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 19, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 19,"ts": 414264718584.8,"dur": 6316.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\appdomain-icalls.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 19,"ts": 414264727269.7,"dur": 1809.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\culture-info-tables.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 14, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 14,"ts": 414264718598.6,"dur": 6302.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\libatomic_ops\\src\\atomic_ops.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 14,"ts": 414264727773.6,"dur": 2271, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\libatomic_ops\\src\\atomic_ops\\sysdeps\\gcc\\s390.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 21, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 21,"ts": 414264718601.7,"dur": 6213.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\include\\cord_pos.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 26, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 26,"ts": 414264720492.6,"dur": 4649.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\arch\\amd64\\amd64-codegen.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 26,"ts": 414264727689.7,"dur": 4401.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\cominterop-win32-internals.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 26,"ts": 414264741560.6,"dur": 1413.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\valgrind.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 27, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 27,"ts": 414264720585.3,"dur": 4376.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\arch\\arm\\arm-codegen.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 27,"ts": 414264728649.2,"dur": 1561.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\culture-info-tables.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 28, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 28,"ts": 414264721314.4,"dur": 3631.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\arch\\amd64\\amd64-codegen.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 28,"ts": 414264727678.4,"dur": 1333.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\cominterop.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 28,"ts": 414264741616.3,"dur": 1312.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\valgrind.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 29, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 29,"ts": 414264721408.2,"dur": 3402.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\arch\\arm\\arm-codegen.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 29,"ts": 414264728076.3,"dur": 1922.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\metadata\\culture-info-tables.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 48, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 48,"ts": 414264744181.1,"dur": 1235, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\mono\\mono\\utils\\valgrind.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 80, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 80,"ts": 414264753876.7,"dur": 1835.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt\\ctype.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 81, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 81,"ts": 414264753972.7,"dur": 1739.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt\\direct.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 82, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414264755995.6,"dur": 1822.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include\\agents.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414264758100.5,"dur": 1114.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include\\amp.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414264760407.4,"dur": 1419.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include\\arm64_neon.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414264761932.5,"dur": 2199.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include\\arm_neon.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414264768932.7,"dur": 1112.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include\\ppltasks.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414264772625.8,"dur": 4208.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include\\xmmintrin.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 83, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 83,"ts": 414264759377.4,"dur": 2949, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include\\amp_short_vectors.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 83,"ts": 414264768443.2,"dur": 1023, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include\\ppl.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 83,"ts": 414264771773.2,"dur": 5531.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include\\xcharconv_ryu_tables.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 83,"ts": 414264777733.9,"dur": 1339.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include\\zmmintrin.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 56, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 56,"ts": 414264763044.1,"dur": 1775.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\mscorlib\\System.Globalization\\Generated\\CultureInfoTablesNet_4_0.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 56,"ts": 414264772140.8,"dur": 5108.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\il2cpp-normalization-tables.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 56,"ts": 414264783272.5,"dur": 1803.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\enc\\static_dict_lut.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 56,"ts": 414264785842,"dur": 1880.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\MarshalStringAlloc.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 42, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 42,"ts": 414264759456.6,"dur": 1141.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared\\TraceLoggingProvider.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 42,"ts": 414264772553.1,"dur": 4419.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared\\ndisguid.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 42,"ts": 414264783109.1,"dur": 2186.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared\\ntstatus.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 42,"ts": 414264785881.6,"dur": 1568.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared\\rpcsal.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 42,"ts": 414264793225.6,"dur": 5247.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared\\winerror.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 57, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 57,"ts": 414264770135.5,"dur": 1282.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared\\ksmedia.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 57,"ts": 414264772600.6,"dur": 4151.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared\\ndkinfo.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 57,"ts": 414264780878.9,"dur": 1422.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared\\ntddndis.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 57,"ts": 414264785663.6,"dur": 1861.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared\\rpcndr.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 57,"ts": 414264789720.1,"dur": 1375.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared\\strsafe.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264762057.9,"dur": 1249.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\Windows.ApplicationModel.store.preview.installcontrol.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264764611.1,"dur": 1389.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\Windows.Media.Streaming.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264766002.2,"dur": 1423, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\Windows.Services.TargetedContent.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264770414.4,"dur": 6985.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ai.machinelearning.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264777402.6,"dur": 1010.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ai.machinelearning.preview.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264778415.6,"dur": 2357.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.activation.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264780775.3,"dur": 2211.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.appointments.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264783322.1,"dur": 2155, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.calls.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264785748.7,"dur": 4744.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.chat.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264790834.2,"dur": 1597.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.conversationalagent.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264792434.3,"dur": 1003.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.core.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264794056.6,"dur": 2466.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.datatransfer.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264796525.2,"dur": 4149.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.email.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264800679.1,"dur": 1696.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.payments.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264803105.1,"dur": 1018.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.search.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264804127.6,"dur": 1116.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.store.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264810752.7,"dur": 1336.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.bluetooth.advertisement.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264812841.5,"dur": 1544.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.bluetooth.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264815454.7,"dur": 1672, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.display.core.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264818225.7,"dur": 1413.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.geolocation.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264822248,"dur": 1140.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.midi.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264823390.6,"dur": 1056.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.perception.provider.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264824449.4,"dur": 4687.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.pointofservice.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264829694.1,"dur": 4151.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.sensors.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264833847.9,"dur": 1904.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.sms.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264841342.6,"dur": 1484.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.globalization.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264843633.9,"dur": 2206.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.graphics.holographic.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264847627.9,"dur": 1432.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.management.deployment.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264850550.1,"dur": 1561.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.capture.frames.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264852113.1,"dur": 5448.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.capture.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264858498.6,"dur": 2892, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.devices.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264862332.1,"dur": 1529.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264863863.5,"dur": 1494.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.mediaproperties.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264866010.7,"dur": 1028.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.playto.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264867746.9,"dur": 2496.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.protection.playready.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264870746.2,"dur": 1321.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.streaming.adaptive.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264872070,"dur": 2149, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.networking.connectivity.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264876022.6,"dur": 2506.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.networking.sockets.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264878530.4,"dur": 2459.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.networking.vpn.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264881174.1,"dur": 1452.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.perception.spatial.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264883369,"dur": 1136, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.security.authentication.identity.provider.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264884755.8,"dur": 1480.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.security.authentication.web.provider.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264886615,"dur": 2011.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.security.cryptography.certificates.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264888628.1,"dur": 1441, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.security.enterprisedata.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264894427.1,"dur": 2848.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.storage.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264897277.6,"dur": 1445.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.storage.search.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264899671.6,"dur": 3536.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.system.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264905725.3,"dur": 5632.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.composition.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264913646.4,"dur": 1929.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.input.inking.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264915577.9,"dur": 1927.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.input.spatial.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264918433.8,"dur": 1106.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.startscreen.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264920477.9,"dur": 1719.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.viewmanagement.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264922199.4,"dur": 1259.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.windowmanagement.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264923460.9,"dur": 5719.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.xaml.automation.peers.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264929185.1,"dur": 5148.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.xaml.controls.maps.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264934336.2,"dur": 4557.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.xaml.controls.primitives.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264938895.5,"dur": 1168.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.xaml.core.direct.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264940066.1,"dur": 1008.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.xaml.data.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264941077.3,"dur": 2297.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.xaml.documents.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264943377,"dur": 6596.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.xaml.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264950819,"dur": 2497, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.xaml.input.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264954270.2,"dur": 4859.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.xaml.media.animation.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264961932.3,"dur": 1588.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.web.http.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 50,"ts": 414264963522.3,"dur": 1105, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.web.syndication.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 55, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 55,"ts": 414264785825.9,"dur": 1610.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\MarshalAlloc.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264779637.1,"dur": 1055.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.appointments.appointmentsprovider.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264780694.7,"dur": 1029.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.appointments.dataprovider.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264782597.1,"dur": 6130.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.background.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264789616.9,"dur": 5310.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.contacts.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264795262.9,"dur": 2060.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.email.dataprovider.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264797838.2,"dur": 2447.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264802214.3,"dur": 1167.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.resources.core.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264805917.8,"dur": 1345.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.userdataaccounts.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264807265.6,"dur": 1095.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.applicationmodel.userdatatasks.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264809369.6,"dur": 1021.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.data.text.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264810577,"dur": 2015.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.alljoyn.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264812594.2,"dur": 3693.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.bluetooth.genericattributeprofile.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264816554.7,"dur": 1913.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.enumeration.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264822397.5,"dur": 3545.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.perception.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264825946.1,"dur": 1647.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.pointofservice.provider.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264830231.2,"dur": 3741.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.smartcards.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264834794.7,"dur": 1640, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.usb.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264836436.4,"dur": 1056.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.devices.wifidirect.services.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264837495,"dur": 1198.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.foundation.diagnostics.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264839250.4,"dur": 1304.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.gaming.input.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264846632,"dur": 2975.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.graphics.printing3d.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264850075.8,"dur": 2782.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.audio.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264855046.4,"dur": 4982.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.core.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264860871.8,"dur": 1434.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.editing.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264862783.6,"dur": 1489.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.import.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264864274.5,"dur": 1248.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.miracast.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264865524.6,"dur": 3526.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.playback.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264869160.7,"dur": 1629.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.media.speechrecognition.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264871099.3,"dur": 2155.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.networking.backgroundtransfer.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264873482.1,"dur": 6227.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.networking.networkoperators.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264879711.1,"dur": 1189.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.networking.xboxlive.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264884307.5,"dur": 1047.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.security.authentication.web.core.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264886770.8,"dur": 1293.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.security.cryptography.core.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264889295.2,"dur": 1593, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.security.isolation.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264890889.9,"dur": 1479.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.services.maps.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264892371.3,"dur": 2560.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.services.store.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264896226.3,"dur": 1445.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.storage.provider.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264902270.6,"dur": 2844.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.system.remotesystems.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264905116.4,"dur": 1147, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.applicationsettings.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264906265,"dur": 1673.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.composition.interactions.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264908043.3,"dur": 1196.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.composition.scenes.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264909756.4,"dur": 2058.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.core.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264912403,"dur": 2836.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.input.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264916234.5,"dur": 2875.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.notifications.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264919112,"dur": 1045.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.text.core.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264921033.5,"dur": 1353.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.webui.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264922532.3,"dur": 2318, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.xaml.automation.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264924852,"dur": 1043.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.xaml.automation.provider.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264926013.1,"dur": 30228, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.xaml.controls.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264956242.7,"dur": 4535.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.ui.xaml.media.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 47,"ts": 414264962394.7,"dur": 3346.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt\\windows.web.http.headers.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264789427.8,"dur": 1111.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\AppxPackaging.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264805196.8,"dur": 1561.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\DvbSiParser.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264807513.4,"dur": 2295.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\FaxComEx.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264811781.7,"dur": 2436.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\Iads.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264820129.5,"dur": 2144.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\MqOaI.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264822667,"dur": 1906.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\MsHtmdid.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264824577.7,"dur": 3196.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\MsXml2.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264827985.5,"dur": 3114.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\MsXml6.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264831189.1,"dur": 20153.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\Mshtmlc.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264856885.5,"dur": 3779.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\ShObjIdl_core.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264862704.3,"dur": 2251, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\Tapi3if.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264865038,"dur": 3511.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\UIAutomationClient.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264871890.6,"dur": 1053.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\WebServices.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264874634,"dur": 1386.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\WinUser.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264877880.4,"dur": 1167.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\activdbg.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264879637.7,"dur": 1385.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\adoint_Backcompat.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264887851.5,"dur": 4349.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\certenroll.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264898076.6,"dur": 1090.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\d3d11_3.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264899486.6,"dur": 3219.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\d3d12.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264910959.2,"dur": 1289.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\evcode.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264920098.8,"dur": 3280.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\icucommon.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264923381.7,"dur": 1831.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\icui18n.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264925409.7,"dur": 1269.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\imapi2.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264931945.2,"dur": 2727.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\mfidl.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264935158.1,"dur": 1124, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\mi.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264938264.4,"dur": 1537.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\msctf.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264942923.6,"dur": 1503.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\msxml.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264946621.3,"dur": 1024.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\nserror.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264947752.9,"dur": 1676.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\objidl.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264954090.3,"dur": 1055.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\pla.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264959644.6,"dur": 3021.4, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\sapi.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264962668,"dur": 2999.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\sapi53.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264972522.6,"dur": 1334.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\taskschd.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264976031.1,"dur": 1358.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\urlmon.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264977899.6,"dur": 1236.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\vds.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264986230.6,"dur": 1415.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\winioctl.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264989622,"dur": 1023.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\winsync.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 75,"ts": 414264991723.8,"dur": 1487.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\wmp.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264798136,"dur": 2676.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\ComSvcs.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264800816.7,"dur": 2933.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\DbgEng.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264806640.8,"dur": 1388.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\ExDisp.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264817526,"dur": 1496.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\MSClus.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264820314.6,"dur": 22419.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\MsHTML.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264861075.4,"dur": 1078.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\TOM.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264879605.1,"dur": 1226.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\adoint.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264885016.5,"dur": 1516.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\azroles.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264896645.9,"dur": 1513.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\d3d11.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264910821.2,"dur": 1075.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\esent.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264918084.4,"dur": 1435.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\gpmgmt.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264920087.3,"dur": 4326.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\icu.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264932186.1,"dur": 1275.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\mfmediaengine.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264933572.8,"dur": 1005.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\mfobjects.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264935563.5,"dur": 1050.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\microsoft.diagnostics.appanalysis.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264940891.3,"dur": 1902.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\msinkaut.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264942796,"dur": 1550.5, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\mswmdm.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264948459.5,"dur": 1006.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\objidlbase.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264950788.6,"dur": 2427.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\oledb.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264956084.6,"dur": 2176.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\propkey.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264959200.5,"dur": 1909.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\rtccore.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264961111.6,"dur": 2966.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\sapi51.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264966849.2,"dur": 3088.1, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\segment.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264971158.7,"dur": 3028, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\strmif.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264975225.6,"dur": 2267.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\tuner.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264983287.8,"dur": 2389.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\wincrypt.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264986607,"dur": 2127.6, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\winnt.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264988951.6,"dur": 1552.2, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\winsqlite\\winsqlite3.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264992460.8,"dur": 1815.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\wmsdkidl.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264995340.2,"dur": 2174.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\wuapi.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 74,"ts": 414264997881.4,"dur": 1206.3, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um\\xpsobjectmodel.h"}
+},
+{ "pid": "il2cpp_outer", "tid": 62, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 62,"ts": 414265001906.3,"dur": 16955.9, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc"}
+},
+{ "pid": "il2cpp_outer", "tid": 62,"ts": 414265001915.4,"dur": 4397.7, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".cpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc"}
+},
+{ "pid": "il2cpp_outer", "tid": 62,"ts": 414265006317.6,"dur": 12542.9, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".c C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc"}
+},
+{ "pid": "il2cpp_outer", "tid": 61, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 61,"ts": 414265002002.8,"dur": 8874.3, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\codegen"}
+},
+{ "pid": "il2cpp_outer", "tid": 61,"ts": 414265002008.6,"dur": 3700.7, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".cpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\codegen"}
+},
+{ "pid": "il2cpp_outer", "tid": 61,"ts": 414265005714.2,"dur": 5161.2, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".c C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\codegen"}
+},
+{ "pid": "il2cpp_outer", "tid": 60, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 60,"ts": 414265002121.5,"dur": 4150.3, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\debugger"}
+},
+{ "pid": "il2cpp_outer", "tid": 60,"ts": 414265002126.6,"dur": 1792, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".cpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\debugger"}
+},
+{ "pid": "il2cpp_outer", "tid": 60,"ts": 414265003923.5,"dur": 2347.1, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".c C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\debugger"}
+},
+{ "pid": "il2cpp_outer", "tid": 60,"ts": 414265006273.4,"dur": 9073.6, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\utils"}
+},
+{ "pid": "il2cpp_outer", "tid": 60,"ts": 414265006277.4,"dur": 4910.3, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".cpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\utils"}
+},
+{ "pid": "il2cpp_outer", "tid": 60,"ts": 414265011192.8,"dur": 4151.9, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".c C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\utils"}
+},
+{ "pid": "il2cpp_outer", "tid": 59, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 59,"ts": 414265002228.3,"dur": 7477.5, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\gc"}
+},
+{ "pid": "il2cpp_outer", "tid": 59,"ts": 414265002234.3,"dur": 3444.7, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".cpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\gc"}
+},
+{ "pid": "il2cpp_outer", "tid": 59,"ts": 414265005685.5,"dur": 4017.8, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".c C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\gc"}
+},
+{ "pid": "il2cpp_outer", "tid": 59,"ts": 414265009708.1,"dur": 5903, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\vm"}
+},
+{ "pid": "il2cpp_outer", "tid": 59,"ts": 414265009716.8,"dur": 4778.3, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".cpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\vm"}
+},
+{ "pid": "il2cpp_outer", "tid": 59,"ts": 414265014501.1,"dur": 1106.3, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".c C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\vm"}
+},
+{ "pid": "il2cpp_outer", "tid": 58, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 58,"ts": 414265002366.1,"dur": 16347.8, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls"}
+},
+{ "pid": "il2cpp_outer", "tid": 58,"ts": 414265002371.1,"dur": 11739.8, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".cpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls"}
+},
+{ "pid": "il2cpp_outer", "tid": 58,"ts": 414265014116.3,"dur": 4592.3, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".c C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls"}
+},
+{ "pid": "il2cpp_outer", "tid": 49, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 49,"ts": 414265002534.7,"dur": 7286.7, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\metadata"}
+},
+{ "pid": "il2cpp_outer", "tid": 49,"ts": 414265002540.3,"dur": 3266.6, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".cpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\metadata"}
+},
+{ "pid": "il2cpp_outer", "tid": 49,"ts": 414265005823.3,"dur": 3994.1, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".c C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\metadata"}
+},
+{ "pid": "il2cpp_outer", "tid": 49,"ts": 414265009822.7,"dur": 4114, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\vm-utils"}
+},
+{ "pid": "il2cpp_outer", "tid": 49,"ts": 414265009827,"dur": 2941.9, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".cpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\vm-utils"}
+},
+{ "pid": "il2cpp_outer", "tid": 49,"ts": 414265012774.7,"dur": 1159.9, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".c C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\vm-utils"}
+},
+{ "pid": "il2cpp_outer", "tid": 48, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 48,"ts": 414265003683.9,"dur": 10746.4, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\mono"}
+},
+{ "pid": "il2cpp_outer", "tid": 48,"ts": 414265003691.5,"dur": 2581.6, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".cpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\mono"}
+},
+{ "pid": "il2cpp_outer", "tid": 48,"ts": 414265006277.8,"dur": 8151.1, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".c C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\mono"}
+},
+{ "pid": "il2cpp_outer", "tid": 73, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 73,"ts": 414265004506.7,"dur": 21205.1, "ph":"X", "name": "FileHashProvider.Initialize", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os"}
+},
+{ "pid": "il2cpp_outer", "tid": 73,"ts": 414265004514.1,"dur": 17807.2, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".cpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os"}
+},
+{ "pid": "il2cpp_outer", "tid": 73,"ts": 414265022326.8,"dur": 3380.1, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".c C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os"}
+},
+{ "pid": "il2cpp_outer", "tid": 28, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 28,"ts": 414265007158.5,"dur": 2438.8, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\icalls\\System\\System.Net.Sockets\\SocketException.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 29, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 29,"ts": 414265011036.4,"dur": 2931.9, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\bdwgc\\allchblk.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 65, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 65,"ts": 414265023377,"dur": 1309.7, "ph":"X", "name": "HashOfFile", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp\\os\\ClassLibraryPAL\\brotli\\common\\dictionary.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 82, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414265035251.6,"dur": 1283.1, "ph":"X", "name": "HeaderFileHashProvider.HashForAllIncludableFilesInDirectories", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include"}
+},
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414265035272.5,"dur": 1250.7, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".hpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include"}
+},
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414265037059.5,"dur": 4052.5, "ph":"X", "name": "HeaderFileHashProvider.HashForAllIncludableFilesInDirectories", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414265037065.7,"dur": 4037.4, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".hpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414265041121.2,"dur": 1346.7, "ph":"X", "name": "HeaderFileHashProvider.HashForAllIncludableFilesInDirectories", "args": { "detail": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include"}
+},
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414265041126.1,"dur": 1336.6, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".hpp C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include"}
+},
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414265042470.3,"dur": 1512.5, "ph":"X", "name": "HeaderFileHashProvider.HashForAllIncludableFilesInDirectories", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt"}
+},
+{ "pid": "il2cpp_outer", "tid": 82,"ts": 414265042474.7,"dur": 1501.1, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".hpp C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt"}
+},
+{ "pid": "il2cpp_outer", "tid": 57, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 57,"ts": 414265035252.4,"dur": 1176.8, "ph":"X", "name": "HeaderFileHashProvider.HashForAllIncludableFilesInDirectories", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include"}
+},
+{ "pid": "il2cpp_outer", "tid": 57,"ts": 414265035272.5,"dur": 1142.6, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".hpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\external\\baselib\\Include"}
+},
+{ "pid": "il2cpp_outer", "tid": 57,"ts": 414265036917.6,"dur": 3050, "ph":"X", "name": "HeaderFileHashProvider.HashForAllIncludableFilesInDirectories", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 57,"ts": 414265036928.8,"dur": 3031.4, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".hpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 57,"ts": 414265042138.2,"dur": 1073.4, "ph":"X", "name": "HeaderFileHashProvider.HashForAllIncludableFilesInDirectories", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt"}
+},
+{ "pid": "il2cpp_outer", "tid": 57,"ts": 414265042146.7,"dur": 1057.4, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".hpp C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt"}
+},
+{ "pid": "il2cpp_outer", "tid": 42, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 42,"ts": 414265036544.6,"dur": 3319, "ph":"X", "name": "HeaderFileHashProvider.HashForAllIncludableFilesInDirectories", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 42,"ts": 414265036548.5,"dur": 3301.5, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".hpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 42,"ts": 414265040275.3,"dur": 1446.7, "ph":"X", "name": "HeaderFileHashProvider.HashForAllIncludableFilesInDirectories", "args": { "detail": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include"}
+},
+{ "pid": "il2cpp_outer", "tid": 42,"ts": 414265040280.7,"dur": 1436.7, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".hpp C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\include"}
+},
+{ "pid": "il2cpp_outer", "tid": 42,"ts": 414265041724.2,"dur": 2429.9, "ph":"X", "name": "HeaderFileHashProvider.HashForAllIncludableFilesInDirectories", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um"}
+},
+{ "pid": "il2cpp_outer", "tid": 42,"ts": 414265041731,"dur": 2324.9, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".hpp C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um"}
+},
+{ "pid": "il2cpp_outer", "tid": 13, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 13,"ts": 414265036595,"dur": 4997.3, "ph":"X", "name": "HeaderFileHashProvider.HashForAllIncludableFilesInDirectories", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 13,"ts": 414265036598.9,"dur": 4984, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".hpp C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\libil2cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 13,"ts": 414265042212.8,"dur": 1956.1, "ph":"X", "name": "HeaderFileHashProvider.HashForAllIncludableFilesInDirectories", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um"}
+},
+{ "pid": "il2cpp_outer", "tid": 13,"ts": 414265042219.1,"dur": 1860.1, "ph":"X", "name": "HashOfAllFilesWithProviderExtensionInDirectory", "args": { "detail": ".hpp C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um"}
+},
+{ "pid": "il2cpp_outer", "tid": 126, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265072881.2,"dur": 11703.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib13.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265084750.5,"dur": 21449.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppCCalculateFieldValues.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265106293.1,"dur": 17151.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib4.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265123533,"dur": 10808, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppGenericMethodPointerTable.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265134413.6,"dur": 6208.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Assembly-CSharp.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265140695.7,"dur": 5352.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265146123.2,"dur": 8632.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.Rare.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265154841.5,"dur": 4711.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AndroidJNIModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265159620.9,"dur": 3815.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.Physics2DModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265163504.9,"dur": 4553.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265168129.2,"dur": 6245.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppRgctxTable.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265174446.1,"dur": 5214.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.ParticleSystemModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265179735.2,"dur": 6637.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AnimationModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265186448,"dur": 2997.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "trees.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265189516.4,"dur": 7184.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.UIModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265196775.3,"dur": 3303.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "backward_references_hq.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265200155.4,"dur": 2852.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System.Core_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265203085.9,"dur": 9947.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Lump_libil2cpp_os.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265213187.1,"dur": 5330.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.DirectorModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265218586.3,"dur": 6805.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Lump_libil2cpp_icalls.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265225503.3,"dur": 4923.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System.Core_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265230502.5,"dur": 9738.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.VRModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265240321.7,"dur": 3408, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "lock-free-queue.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265243801,"dur": 15632.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-os-wait-win32.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265259631.8,"dur": 3106.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gunicode.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265262811.3,"dur": 4060.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-linked-list-set.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265266941.7,"dur": 3456.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "state.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265270463.9,"dur": 3585.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.GridModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265274112.9,"dur": 3521.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-threads-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265277703.1,"dur": 4424.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-filemap.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265282226.6,"dur": 4889.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.InputModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265287207.9,"dur": 7231.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "uncompr.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265294556.9,"dur": 7564.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "unity-rand.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265302249.3,"dur": 4186.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "file-mmap-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265306515.4,"dur": 8953.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "networking.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265315536.4,"dur": 7225.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "krait_signal_handler.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265322828.5,"dur": 6299.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "os-event-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265329186.2,"dur": 11355.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.GridModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265340632.5,"dur": 3308.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AssetBundleModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 126,"ts": 414265344002.6,"dur": 7660.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-math.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265072884.6,"dur": 22895.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265095864.6,"dur": 14415.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppCCalculateTypeValues.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265110362,"dur": 16375.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib1.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265126811.8,"dur": 7672.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265134556,"dur": 5581, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AndroidJNIModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265140216.6,"dur": 5320.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Generics8.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265145606.6,"dur": 6660.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.Rare1.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265152351.5,"dur": 6390.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.TerrainModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265158819.5,"dur": 4519.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.PhysicsModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265163406.9,"dur": 4422.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppGenericClassTable.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265167892.2,"dur": 6289.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.VFXModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265174262.4,"dur": 5343.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.Rare5.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265179706.3,"dur": 4664, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AndroidJNIModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265184452.8,"dur": 6907.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "brotli_bit_stream.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265191492.7,"dur": 7000.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System.Configuration.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265198678.8,"dur": 3518.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265202283.6,"dur": 3102.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "compress_fragment_two_pass.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265206657,"dur": 4044.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gzread.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265210780.9,"dur": 4125.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.SharedInternalsModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265214965.4,"dur": 3345.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.Physics2DModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265218396.3,"dur": 3694.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "entropy_encode.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265222162.9,"dur": 6016.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.TilemapModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265228440.5,"dur": 6247.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-tls.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265234753,"dur": 2826, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.SubsystemsModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265237659.2,"dur": 3862.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-io-portability.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265241589.8,"dur": 2969.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.ParticleSystemModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265244668.1,"dur": 14675.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppCodeRegistration.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265259412.6,"dur": 4565.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.InputLegacyModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265264070.9,"dur": 4523.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "garray.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265268796.9,"dur": 5215.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "lock-free-array-queue.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265274079.6,"dur": 3694, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.VRModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265277844.1,"dur": 5095.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.UIModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265282996.4,"dur": 11569, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-log-common.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265294637.3,"dur": 8699.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gerror.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265303458.1,"dur": 6384.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Lump_libil2cpp_metadata.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265309940.6,"dur": 10783.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-dl-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265320786,"dur": 8214.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "w32semaphore-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265329065.7,"dur": 11204.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "console-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265340425.3,"dur": 5046.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "il2cpp-benchmark-support.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 121,"ts": 414265345557.9,"dur": 3375.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gdate-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265072891.9,"dur": 12492, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Generics3.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265085463.2,"dur": 10126.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Generics.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265095758.6,"dur": 12385.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppInvokerTable.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265108219.6,"dur": 9776.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib6.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265118088.7,"dur": 12249.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib12.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265130422.6,"dur": 16701, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "GenericMethods2.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265147217.9,"dur": 7657.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.Rare4.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265154950,"dur": 4522, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.West1.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265159543.4,"dur": 6482.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.TilemapModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265166114.3,"dur": 4451.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265170632.3,"dur": 4895.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "dictionary_hash.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265175591.7,"dur": 4383.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.Rare_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265180050.3,"dur": 4558.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.IMGUIModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265184888.5,"dur": 4898.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-threads.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265189863.5,"dur": 6996, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "il2cpp-api.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265196924.2,"dur": 3019.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-error.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265200015.5,"dur": 3347.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-proclib.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265203443,"dur": 3644.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.Other_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265207201.2,"dur": 3738, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-counters.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265211015.7,"dur": 3793.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.UIElementsNativeModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265214880.7,"dur": 3427.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AIModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265218396.3,"dur": 5538.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AudioModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265224017.8,"dur": 5784.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.TerrainModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265229872.7,"dur": 7624.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-dl.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265237571.5,"dur": 3333, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-conc-hashtable.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265240972.9,"dur": 3582.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System.Xml_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265244643.3,"dur": 14680.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.VideoModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265259406.6,"dur": 3220.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.UIElementsNativeModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265262697,"dur": 4816, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "w32socket-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265267581.8,"dur": 5993.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gpattern.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265273660.4,"dur": 5969.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AIModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265279784.2,"dur": 10580.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gdir-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265290487.4,"dur": 9075.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "networking-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265299652.9,"dur": 3758.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gqueue.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265303503,"dur": 2974.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppReversePInvokeWrapperTable.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265306554.9,"dur": 5428.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityAdsStubs.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265312043,"dur": 5654.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "cluster.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265317898.9,"dur": 8021.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "networking-missing.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265325980.7,"dur": 4970.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppMetadataRegistration.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265331024.8,"dur": 10377.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "unity-time.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 124,"ts": 414265341509.3,"dur": 7503.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-log-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265072899.8,"dur": 15889, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.CoreModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265088899.4,"dur": 19961.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib10.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265108957.7,"dur": 9941.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib8.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265119003.4,"dur": 8194.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System1.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265127273.9,"dur": 7098.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib16.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265134443.3,"dur": 6939.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265141466.4,"dur": 9258.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.Rare2.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265150797.6,"dur": 5072.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.Other.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265155945.3,"dur": 4820, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppGenericAdjustorThunkTable.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265160841.1,"dur": 5955.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppInteropDataTable.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265166873.9,"dur": 3924.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppCCFieldValuesTable.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265170860.3,"dur": 4064.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "deflate.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265174998.4,"dur": 5003.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.VideoModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265180065.1,"dur": 4704, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.SharedInternalsModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265184834.6,"dur": 7299.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.TilemapModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265194798.1,"dur": 3926.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.InputLegacyModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265198816.8,"dur": 3376.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.VFXModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265202283.6,"dur": 2861, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.West_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265205220.2,"dur": 5498, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gstr.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265210793.1,"dur": 3860.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.Other_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265214746.5,"dur": 4575.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gzlib.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265219390.3,"dur": 2873.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "crc32.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265222330,"dur": 3988.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "inftrees.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265226401.9,"dur": 7717.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.MidEast_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265234202.2,"dur": 3266.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "atomic.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265237542,"dur": 2875.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.InputModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265240492.2,"dur": 2807.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-value-hash.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265243408.5,"dur": 12695.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AudioModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265256192.2,"dur": 3155.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gslist.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265259417.7,"dur": 5133.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "glist.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265264621.4,"dur": 5697.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "adler32.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265270386.2,"dur": 7239.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gqsort.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265277699.7,"dur": 4559.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.GridModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265282322.3,"dur": 17768.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "__Generated.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265300189.5,"dur": 5166, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-poll.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265305494.8,"dur": 4352, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-proclib-windows.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265309940.8,"dur": 9816.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-uri.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265319866.2,"dur": 9070, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Lump_libil2cpp_vm-utils.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265329007,"dur": 6340.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.VRModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 120,"ts": 414265335406.8,"dur": 12713.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Lump_libil2cpp_gc.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265072905.1,"dur": 13301.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Generics2.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265086284.8,"dur": 14835, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib2.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265101198.5,"dur": 16597.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Generics4.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265117927.7,"dur": 8251, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "GenericMethods.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265126258.9,"dur": 7603.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib15.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265133967,"dur": 7280.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.IMGUIModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265141322.3,"dur": 3969, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppGenericInstDefinitions.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265145366.7,"dur": 5398.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.CoreModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265150857.6,"dur": 5012.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.Rare3.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265155946.6,"dur": 3534.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.MidEast.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265159547.9,"dur": 4840.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "dlmalloc.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265164470.6,"dur": 3214.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib18.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265167767.4,"dur": 2968.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Mono.Security.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265170807,"dur": 4344.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "decode.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265175212.9,"dur": 7147.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.UnityAnalyticsModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265182470.7,"dur": 6902.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.Rare_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265189452.6,"dur": 7645, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.UnityWebRequestModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265197234.5,"dur": 3160.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "giconv.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265200468.6,"dur": 3860.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AssetBundleModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265204416.2,"dur": 6399.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "metablock.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265210884,"dur": 4165.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-context.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265215123.6,"dur": 3537.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-codeman.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265218728.6,"dur": 3307.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "ghashtable.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265222122.1,"dur": 4417.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-hash.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265226609.1,"dur": 7901.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.MidEast_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265234575.9,"dur": 4012.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "hazard-pointer.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265238683.1,"dur": 4352.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.VFXModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265243122.6,"dur": 12974.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "zutil.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265256172.7,"dur": 3214, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gshell.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265259451.2,"dur": 3281.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.DirectorModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265262798.1,"dur": 7047.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Lump_libil2cpp_vm.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265269921.4,"dur": 4109.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Mono.Security_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265274084.8,"dur": 6100.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-path.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265280292.7,"dur": 6948.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gmem.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265287319.2,"dur": 11866.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-networkinterfaces.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265299276.4,"dur": 4480.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.UnityWebRequestModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265303819.1,"dur": 4998.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "w32event-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265308959.9,"dur": 2499, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.DirectorModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265311565.1,"dur": 8249.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-hwcap.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265319899.8,"dur": 10325.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "__Generated_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265330311.8,"dur": 7082.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "bit_cost.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265337466.3,"dur": 6260.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gzclose.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 122,"ts": 414265343811.5,"dur": 5984.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "w32error-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265072905.2,"dur": 13001.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib7.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265085983,"dur": 11247.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib14.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265097313.5,"dur": 12328.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Generics5.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265109720,"dur": 8525.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib5.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265118324.6,"dur": 7678.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib3.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265126085.2,"dur": 8680, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Generics7.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265134836.7,"dur": 5139.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System2.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265140074.5,"dur": 5041.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.CJK.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265145211.6,"dur": 5656.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.West.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265150938,"dur": 7078.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.IMGUIModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265158100.3,"dur": 5864.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppCCTypeValuesTable.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265164063.5,"dur": 3656.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppGenericMethodTable.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265167786.4,"dur": 7811.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System.Xml.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265175664.9,"dur": 4248.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.XRModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265179980.8,"dur": 4538.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.PhysicsModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265184588.7,"dur": 4897.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "il2cpp-mono-api.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265189556.2,"dur": 7174.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "profiler.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265196800,"dur": 2771.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "xamarin_getifaddrs.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265199654.1,"dur": 3186.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.XRModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265202906.1,"dur": 3678.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "infback.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265206676,"dur": 4021.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gzwrite.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265210780.9,"dur": 3924.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.PhysicsModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265214781.3,"dur": 7861.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.ParticleSystemModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265222711.2,"dur": 4103.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-threads-coop.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265226880.2,"dur": 5644.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "w32file-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265232691,"dur": 4732.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System.Core.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265237508.4,"dur": 4357.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-sha1.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265241981.3,"dur": 14528.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gutf8.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265256590.3,"dur": 3326.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Mono.Security_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265259985.6,"dur": 4854.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gstring.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265264901.8,"dur": 5566, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "w32process-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265270528.4,"dur": 3563.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.TextRenderingModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265274155,"dur": 4259, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "backward_references.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265278483.8,"dur": 4136, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-hwcap-x86.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265282692.1,"dur": 5002.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "histogram.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265287778.6,"dur": 3848.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265291727.6,"dur": 9151.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "json.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265300980.1,"dur": 3572.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "bsearch.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265304614.4,"dur": 5286.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-property-hash.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265309960.4,"dur": 7314.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.TextRenderingModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265317346.8,"dur": 8147.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gmisc-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265325573.2,"dur": 7930.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-stdlib.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265333602.3,"dur": 10212.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265343877.8,"dur": 1952.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 123,"ts": 414265345891.5,"dur": 3942.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "il2cpp-runtime-stats.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 119, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265072933.9,"dur": 22900.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppMetadataUsage.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265095908.8,"dur": 11893.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib11.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265107882.9,"dur": 9891.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "GenericMethods1.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265117927.7,"dur": 9545.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.CoreModule1.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265127557.2,"dur": 13565.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib9.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265141195.1,"dur": 9285.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "char-conversions.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265150575.8,"dur": 5088.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.XRModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265155736.1,"dur": 7089.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Assembly-CSharp_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265162908.9,"dur": 3186, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnresolvedVirtualCallStubs.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265166159.8,"dur": 4596.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppGenericMethodDefinitions.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265170820.3,"dur": 4407.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AudioModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265175296,"dur": 6031.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.TerrainModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265181404.5,"dur": 3083.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.CJK_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265184558.5,"dur": 3905.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Assembly-CSharp_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265188562.9,"dur": 7363.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.CJK_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265196016,"dur": 3700.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "compress_fragment.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265199792.4,"dur": 2578.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.SubsystemsModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265202448.9,"dur": 2953.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AnimationModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265206676,"dur": 4323.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.TextRenderingModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265211061.1,"dur": 3973.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "monobitset.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265215106.3,"dur": 4340.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-mmap.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265219525.1,"dur": 3553.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-logger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265223163.7,"dur": 3334.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gspawn.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265226568.3,"dur": 2649.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.UnityAnalyticsModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265229300.4,"dur": 5268.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gmarkup.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265234630.1,"dur": 3227.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-md5.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265237920.1,"dur": 2539.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.UIModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265240525.5,"dur": 2789.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gpath.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265243391.4,"dur": 13397, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "goutput.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265256853,"dur": 5091.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "block_splitter.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265262030,"dur": 4610.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System.Configuration_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265266719.4,"dur": 3448.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "memory.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265270236.3,"dur": 4500.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-mmap-windows.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265274801.6,"dur": 4795.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gfile.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265279717.1,"dur": 10982.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gc.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265290766.5,"dur": 3866, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-internal-hash.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265294710.7,"dur": 6110.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-os-mutex.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265300920.9,"dur": 3374.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gfile-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265304359.5,"dur": 7220.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Lump_libil2cpp_utils.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265311643.4,"dur": 5723, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "parse.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265317426.2,"dur": 10934.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "bit_reader.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265328442.1,"dur": 6828.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gunicode-win32-uwp.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265335346.7,"dur": 8596.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-publib.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 119,"ts": 414265344010.3,"dur": 6136.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Lump_libil2cpp_codegen.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 125, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265072940.7,"dur": 12022.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265085047.2,"dur": 12621.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Il2CppTypeDefinitions.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265097761.8,"dur": 14317.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Generics6.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265112164.5,"dur": 14469.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mscorlib17.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265126710.1,"dur": 7537.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Generics1.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265134322.8,"dur": 6307.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.CoreModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265140705.9,"dur": 6578.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "dictionary.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265147359.8,"dur": 7731.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "debugger-agent.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265155164.2,"dur": 4031.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AnimationModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265159288.5,"dur": 4202, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.SharedInternalsModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265163568.7,"dur": 3708.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.InputLegacyModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265167349.4,"dur": 3178.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.SubsystemsModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265170609.1,"dur": 4347.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.UIElementsNativeModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265175024.7,"dur": 4701.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "encode.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265179798.5,"dur": 4973.5, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "inflate.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265184839.5,"dur": 4729.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.InputModule.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265189641,"dur": 7395, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.Physics2DModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265197099.9,"dur": 2665.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265199827.5,"dur": 3260.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "mono-threads-state-machine.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265203152.8,"dur": 4494, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "I18N.West_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265207771.4,"dur": 3175, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "static_dict.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265211011.9,"dur": 4394.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "lock-free-alloc.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265215475.9,"dur": 7020.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.VideoModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265222558.4,"dur": 4475.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "inffast.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265227100,"dur": 7088.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "huffman.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265234262.1,"dur": 3313.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "strenc.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265237641.6,"dur": 3137.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.UnityWebRequestModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265240848.9,"dur": 2719.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System.Xml_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265243682.1,"dur": 13044.7, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "System.Configuration_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265256790.3,"dur": 5916.8, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "memfuncs.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265262789.2,"dur": 4709.9, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "literal_cost.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265267564.1,"dur": 4983.1, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gptrarray.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265272669.2,"dur": 5637.4, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.UnityAnalyticsModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265278380,"dur": 4692.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "__Generated_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265283133.7,"dur": 10533.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AssetBundleModule_Debugger.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265293751.6,"dur": 7143.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "compress.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265300957.1,"dur": 5464.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "utf8_util.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265306515.6,"dur": 7735.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "gbytearray.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265314386.7,"dur": 10891.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "UnityEngine.AIModule_CodeGen.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265325355.8,"dur": 5965.3, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "w32mutex-unity.c"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265331381.7,"dur": 12585.6, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Lump_libil2cpp_mono.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 125,"ts": 414265344026.6,"dur": 7846.2, "ph":"X", "name": "HashCompilerInvocation", "args": { "detail": "Lump_libil2cpp_debugger.cpp"}
+},
+{ "pid": "il2cpp_outer", "tid": 66, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 66,"ts": 414265148192.9,"dur": 1518, "ph":"X", "name": "HeaderFileHashProvider.HashForAllHeaderFilesReachableByFilesIn", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt"}
+},
+{ "pid": "il2cpp_outer", "tid": 80, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 80,"ts": 414265148150.6,"dur": 3000, "ph":"X", "name": "HeaderFileHashProvider.HashForAllHeaderFilesReachableByFilesIn", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt"}
+},
+{ "pid": "il2cpp_outer", "tid": 32, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 32,"ts": 414265244855.6,"dur": 10228.9, "ph":"X", "name": "HeaderFileHashProvider.HashForAllHeaderFilesReachableByFilesIn", "args": { "detail": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\Source"}
+},
+{ "pid": "il2cpp_outer", "tid": 137, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "il2cpp_outer", "tid": 137,"ts": 414265307095.1,"dur": 1192, "ph":"X", "name": "HeaderFileHashProvider.HashForAllHeaderFilesReachableByFilesIn", "args": { "detail": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared"}
+},
+{ "pid": "il2cpp_outer", "tid": 0, "ph":"M", "name": "thread_name", "args": {"name": "GC"} },
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414264573714.1,"dur": 15092, "ph":"X", "name": "GC - Gen 0", "args": { "detail": "Reason: SOH allocation, Type: Blocking GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414264732914.5,"dur": 2714, "ph":"X", "name": "GC - Gen 1", "args": { "detail": "Reason: SOH allocation, Type: Blocking GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414264741571,"dur": 1472.2, "ph":"X", "name": "GC - Gen 0", "args": { "detail": "Reason: SOH allocation, Type: Blocking GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414264760104.3,"dur": 0, "ph":"X", "name": "GC - Gen 2", "args": { "detail": "Reason: SOH allocation, Type: Background GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414264761727.9,"dur": 18066, "ph":"X", "name": "GC - Gen 0", "args": { "detail": "Reason: SOH allocation, Type: Blocking GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414264994853.5,"dur": 1367.4, "ph":"X", "name": "GC - Gen 1", "args": { "detail": "Reason: SOH allocation, Type: Blocking GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414265074782.5,"dur": 12942.5, "ph":"X", "name": "GC - Gen 2", "args": { "detail": "Reason: LOH allocation, Type: Background GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414265135812.4,"dur": 1251.4, "ph":"X", "name": "GC - Gen 1", "args": { "detail": "Reason: SOH allocation, Type: Blocking GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414265160822.7,"dur": 22109.4, "ph":"X", "name": "GC - Gen 2", "args": { "detail": "Reason: LOH allocation, Type: Background GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414265193061.5,"dur": 903.4, "ph":"X", "name": "GC - Gen 1", "args": { "detail": "Reason: SOH allocation, Type: Blocking GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414265201605.9,"dur": 19495.7, "ph":"X", "name": "GC - Gen 2", "args": { "detail": "Reason: LOH allocation, Type: Background GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414265232550,"dur": 9924.4, "ph":"X", "name": "GC - Gen 1", "args": { "detail": "Reason: SOH allocation, Type: Blocking GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414265269035.6,"dur": 17176.5, "ph":"X", "name": "GC - Gen 2", "args": { "detail": "Reason: LOH allocation, Type: Background GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414265294825,"dur": 818.8, "ph":"X", "name": "GC - Gen 1", "args": { "detail": "Reason: SOH allocation, Type: Blocking GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414265326886.8,"dur": 25361.8, "ph":"X", "name": "GC - Gen 2", "args": { "detail": "Reason: LOH allocation, Type: Background GC"}
+},
+{ "pid": "il2cpp_outer", "tid": 0,"ts": 414265491532.5,"dur": 59089.2, "ph":"X", "name": "GC - Gen 1", "args": { "detail": "Reason: SOH allocation, Type: Blocking GC"}
+},
+{}
+
+],
+"meta_datetime": "04/06/2022 10:54:26",
+"meta_command_line": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\build\\deploy\\il2cpp.dll --libil2cpp-static --compile-cpp -architecture=x64 -configuration=Debug -platform=winrt -outputpath=C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\\\build\\bin\\x64\\Debug\\GameAssembly.dll --data-folder=C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\\\build\\bin\\x64\\Debug\\ -cachedirectory=C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\\\build\\obj\\il2cppOutputProject\\x64\\Debug\\ -generatedcppdir=C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\\\Source --enable-debugger --incremental-g-c-time-slice=3 --baselib-directory=C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Players\\UAP\\il2cpp\\x64\\Debug --avoid-dynamic-library-copy --dont-deploy-baselib --profiler-report --additional-defines=WINDOWS_UWP --additional-defines=UNITY_UWP --additional-defines=UNITY_WSA_10_0 --additional-defines=UNITY_WSA --additional-defines=UNITY_WINRT --additional-defines=PLATFORM_WINRT -dotnetprofile=unityaot-win32 -verbose --relative-data-path=Data/il2cpp_data",
+"meta_command_line_args": "C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\IL2CPP\\build\\deploy\\il2cpp.dll --libil2cpp-static --compile-cpp -architecture=x64 -configuration=Debug -platform=winrt -outputpath=C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\\\build\\bin\\x64\\Debug\\GameAssembly.dll --data-folder=C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\\\build\\bin\\x64\\Debug\\ -cachedirectory=C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\\\build\\obj\\il2cppOutputProject\\x64\\Debug\\ -generatedcppdir=C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Il2CppOutputProject\\\\Source --enable-debugger --incremental-g-c-time-slice=3 --baselib-directory=C:\\Git\\C4OS_Unity\\C4OS\\BuildXAML_WithC#\\Players\\UAP\\il2cpp\\x64\\Debug --avoid-dynamic-library-copy --dont-deploy-baselib --profiler-report --additional-defines=WINDOWS_UWP --additional-defines=UNITY_UWP --additional-defines=UNITY_WSA_10_0 --additional-defines=UNITY_WSA --additional-defines=UNITY_WINRT --additional-defines=PLATFORM_WINRT -dotnetprofile=unityaot-win32 -verbose --relative-data-path=Data/il2cpp_data",
+"meta_user_name": "FT30353",
+"meta_os_version": "Microsoft Windows NT 10.0.19041.0",
+"meta_cpu_count": "8"
+}

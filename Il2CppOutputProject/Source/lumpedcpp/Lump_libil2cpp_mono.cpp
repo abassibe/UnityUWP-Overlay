@@ -1,0 +1,7 @@
+#include "il2cpp-config.h"
+#include "C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\Il2CppOutputProject\IL2CPP\libil2cpp\mono\MonoPosixHelper.cpp"
+#include "C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\Il2CppOutputProject\IL2CPP\libil2cpp\mono\ThreadPool\ThreadPoolMonitorThread.cpp"
+#include "C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\Il2CppOutputProject\IL2CPP\libil2cpp\mono\ThreadPool\ThreadPoolWorkerThread.cpp"
+#include "C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\Il2CppOutputProject\IL2CPP\libil2cpp\mono\ThreadPool\threadpool-ms-io-poll.cpp"
+#include "C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\Il2CppOutputProject\IL2CPP\libil2cpp\mono\ThreadPool\threadpool-ms-io.cpp"
+#include "C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\Il2CppOutputProject\IL2CPP\libil2cpp\mono\ThreadPool\threadpool-ms.cpp"

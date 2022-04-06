@@ -1,0 +1,1 @@
+C:\Git\C4OS_Unity\C4OS\BuildXAML_WithC#\POCTestUWP\POCTestUWP.csproj;x64
